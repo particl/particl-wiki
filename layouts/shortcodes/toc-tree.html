@@ -15,7 +15,7 @@
       <li>
       {{ if or .Content .Params.geekdocFlatSection }}
         <span>
-          <a href="{{ .RelPermalink }}" class="gdoc-toc__entry">{{ partial "title" . }}</a>
+          <a href="{{ .RelPermalink }}" class="gdoc-toc__entry">{{ partial "title" . }}</a> <small>{{ .Params.Subtitle }}</small>
         </span>
       {{ else }}
         <span>{{ partial "title" . }}</span>

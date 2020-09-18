@@ -1,13 +1,13 @@
 ---
 baseURL: https://geekdocs.de/
-title: Geekdocs
+title: Particl.wiki
 #theme: hugo-geekdoc
 pygmentsUseClasses: true
 pygmentsCodeFences: true
 
 # Geekdoc configuration
 disablePathToLower: true
-enableGitInfo: true
+enableGitInfo: true # grabs modified date for articles (https://gohugo.io/variables/git/) and more
 
 # Needed for mermaid shortcodes
 markup:
@@ -21,11 +21,24 @@ markup:
 params:
   geekdocToC: 3
 
-  geekdocRepo: https://github.com/xoxys/hugo-geekdoc
-  geekdocEditPath: edit/master/exampleSite/content
+  # (Optional, default static/brand.svg) Set the path to a logo for the Geekdoc
+  # relative to your 'static/' folder.
+  geekdocLogo: particl-wiki-symbol.svg
+
+  # true shows manually configured menu, false displays tree-structure of site's content
+  #geekdocMenuBundle: true
+
+  geekdocRepo: https://github.com/AllienWorks/particl-wiki
+  geekdocEditPath: edit/master/content
 
   geekdocDateFormat: "Jan 2, 2006"
   geekdocSearch: true
+
+  # (Optional, default true) Add an anchor link to headlines.
+  geekdocAnchor: true
+
+  # (Optional, default true) Copy anchor url to clipboard on click.
+  geekdocAnchorCopy: true
 
   geekdocLegalNotice: https://thegeeklab.de/legal-notice/#contact-information
   geekdocPrivacyPolicy: https://thegeeklab.de/legal-notice/#privacy-policy

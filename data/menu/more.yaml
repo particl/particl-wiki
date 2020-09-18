@@ -1,13 +1,14 @@
 ---
 more:
-  - name: News
-    ref: "/posts"
+  - name: Particl News
+    ref: "https://particl.news"
+    external: true
     icon: "notification"
-  - name: Releases
-    ref: "https://github.com/xoxys/hugo-geekdoc/releases"
+  - name: Downloads
+    ref: "https://particl.io/downloads"
     external: true
     icon: "download"
-  - name: "View Source"
-    ref: "https://github.com/xoxys/hugo-geekdoc"
+  - name: "Particl GitHub"
+    ref: "https://github.com/particl"
     external: true
     icon: "github"

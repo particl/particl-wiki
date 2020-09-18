@@ -1,0 +1,14 @@
+---
+main:
+  - name: Learn
+    ref: "/learn"
+    icon: "notification"
+  - name: Tutorials
+    ref: "/tutorial"
+    icon: "download"
+  - name: "Troubleshooting"
+    ref: "/tutorial"
+    icon: "github"
+  - name: "Dev Docs"
+    ref: "/dev"
+    icon: "github"
