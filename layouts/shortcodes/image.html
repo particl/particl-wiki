@@ -1,0 +1,18 @@
+<figure class="side-thumb {{ with .Get "class" }}{{ . }}{{ end }}">
+
+  <a href="{{ .Get "src" }}" title="Click for larger image">
+    <img
+      src="{{ .Get "src" }}"
+      {{ with .Get "alt" }} alt="{{ . }}"{{ end }}
+    >
+  </a>
+
+  {{/* For figcaption, show "caption" text if provided, else show "alt", else nothing */}}
+  {{ with .Get "caption" }}
+    <figcaption>{{ . }}</figcaption>
+  {{ else }}
+    {{ with .Get "alt" }}
+      <figcaption>{{ . }}</figcaption>
+    {{ end }}
+  {{ end }}
+</figure>

@@ -1,0 +1,47 @@
+/* -------------- TYPOGRAPHY -------------- */
+
+.lead {
+  font-size: 1.2em;
+  color: gray;
+}
+
+
+// Tree-TOC
+
+.gdoc-toc {
+  small {
+    display: block;
+    line-height: 1.6em;
+    margin-bottom: 1em;
+  }
+}
+
+
+/* -------------- IMAGES -------------- */
+
+figure {
+  &.side-thumb {
+    width: 250px;
+    float: right;
+    margin: 0 0 2rem 2rem;
+  }
+  figcaption {
+    text-align: center;
+    color: grey;
+    font-size: 0.9em;
+    margin-top: 0.2em;
+  }
+}
+
+
+/* -------------- MISC. -------------- */
+
+// Todo
+.todo {
+  border: 2px dashed silver;
+  background: #c0c0c014;
+  padding: 3em 2em;
+  text-align: center;
+  margin: 2em 0;
+  color: gray;
+}
