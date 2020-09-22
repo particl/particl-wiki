@@ -1,7 +1,7 @@
 ---
 title: Partyman staking utility
-slug: partyman
 subtitle: Partyman is a CLI utility for managing your self-hosted staking nodes, like DSD or servers
+slug: partyman
 weight: 3
 tags:
   - staking

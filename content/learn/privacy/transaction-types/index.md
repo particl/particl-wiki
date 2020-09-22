@@ -16,19 +16,19 @@ As the highest privacy state requires the most transaction fee, it may not alway
 
 |                          | Public      | Blind       | Anon        |
 |--------------------------|:-----------:|:-----------:|:-----------:|
-| [Staking](learn:staking) | {{< yes >}} | {{< no >}}  | {{< no >}}  |
+| [Staking](learn:staking) | {{< ico yes >}} | {{< ico no >}}  | {{< ico no >}}  |
 | Privacy                  | ∗           | ∗∗         | ∗∗∗        |
-| Hidden TX amount         | {{< no >}}  | {{< yes >}} | {{< yes >}} |
-| Anon TX participants     | {{< no >}}  | {{< no >}}  | {{< yes >}} |
+| Hidden TX amount         | {{< ico no >}}  | {{< ico yes >}} | {{< ico yes >}} |
+| Anon TX participants     | {{< ico no >}}  | {{< ico no >}}  | {{< ico yes >}} |
 | TX fees                  | $           | $$          | $$$         |
 
 
 | **[Open Marketplace](/learn/market/)**          | Public      | Blind | Anon        |
 |-------------------------------------------------|:-----------:|:-----:|:-----------:|
-| Paying for Listing fees                         | {{< yes >}} | –     | –           |
-| [Flagging](/learn/market/governance/) items     | {{< yes >}} | –     | –           |
-| Purchasing items                                | –           | –     | {{< yes >}} |
-| Funding [MAD Escrow](/learn/market/mad-escrow/) | –           | –     | {{< yes >}} |
+| Paying for Listing fees                         | {{< ico yes >}} | –     | –           |
+| [Flagging](/learn/market/governance/) items     | {{< ico yes >}} | –     | –           |
+| Purchasing items                                | –           | –     | {{< ico yes >}} |
+| Funding [MAD Escrow](/learn/market/mad-escrow/) | –           | –     | {{< ico yes >}} |
 
 **Why has PART different privacy states?**
  

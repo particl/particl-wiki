@@ -15,14 +15,16 @@ Hugo-based knowledge base for @particl Project
 ## Formatting
 
 - Table of Contents: `{{< toc >}}`
+- Tree ToC (list all child pages with hierarchy): `{{< tree-toc >}}`
 - Buttons: `{{< button relref="/" [class="..."] >}}Text{{< /button >}}`
-- For features - check (yes) `{{< yes >}}`, cross (no) `{{< no >}}`, n/a `{{< na >}}`
+- Icons: `{{< ico NAME >}}` - names correspond to icon file names in `/static/media/icons/`, e.g. `{{< ico yes >}}`
 
 ### Tables
 
 ```markdown
 | head | head |
 | ---- | ---- |
+| data | data |
 | data | data |
 ```
 
@@ -78,6 +80,9 @@ Menus are defined in `data/menu/main.yml` and `../more.yml`
 - [ ] link to missing/unfinished pages in footer (http://localhost:1313/tags/TODO/)
 - [ ] highlight important pages (w/ "important" tag) in lists - bold? star icon?
 
+Moved pages:
+- [ ] learn/staking/ -> learn/staking/intro
+- [ ] learn/hardware-wallets -> learn/wallets/hardware
 
 ## Credits
 
