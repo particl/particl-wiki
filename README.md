@@ -16,7 +16,7 @@ Hugo-based knowledge base for @particl Project
 
 - Table of Contents: `{{< toc >}}`
 - Tree ToC (list all child pages with hierarchy): `{{< tree-toc >}}`
-- Buttons: `{{< button relref="/" [class="..."] >}}Text{{< /button >}}`
+- Buttons: `{{< button href="/" [class="..."] >}}Text{{< /button >}}`
 - Icons: `{{< ico NAME >}}` - names correspond to icon file names in `/static/media/icons/`, e.g. `{{< ico yes >}}`
 
 ### Tables

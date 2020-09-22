@@ -22,9 +22,11 @@
             <ul class="tags">
                 {{ range .Params.tags }}
                 <li>
-                    <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">
-                        {{- . -}}
-                    </a>
+                    <span class="gdoc-button">
+                        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="gdoc-button__link --smaller">
+                            {{- . -}}
+                        </a>
+                    </span>
                 </li>
                 {{ end }}
             </ul>
@@ -32,9 +34,6 @@
 
     </article>
 
-    <aside class="related">
-        <h2>Related articles</h2>
-        {{- partial "menu-contextual.html" . -}}
-    </aside>
+    {{- partial "menu-contextual.html" . -}}    
 
 {{ end }}

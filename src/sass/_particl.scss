@@ -1,12 +1,77 @@
+/* -------------- CONFIG -------------- */
+
+:root {
+  --primary: #45D492;
+  --secondary: #1597DD; // PART blue
+  --tertiary: #5949A7; // PART purple
+
+  --text: #212121;
+  --text-muted: #5e5e5e;
+}
+
+
+/* -------------- LAYOUT -------------- */
+
+.gdoc-brand {
+  font-size: 1.45rem;
+}
+
+.gdoc-button {
+  .gdoc-button__link {
+    padding: 0.65rem 1rem;
+    &.--smaller {
+      padding: 0.25rem 0.6rem;
+      font-size: 0.9em;
+    }
+  }
+  &.--full-width {
+    width: 100%;
+  }
+}
+
+aside.related {
+  small {
+    color: var(--text-muted);
+  }
+}
+
+.meta {
+  .tags {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      display: inline-block;
+    }
+  }
+}
+
 /* -------------- TYPOGRAPHY -------------- */
 
 html {
   letter-spacing: .2px;
 }
 
+.gdoc-markdown {
+  & > :first-child {
+    margin-top: 2rem;
+  }
+  h1 {
+    font-weight: 600;
+  }
+  h2, h3, h4, h5, h6 {
+    font-weight: 500;
+  }
+  p {
+    color: var(--text-muted);
+    b, strong {
+      color: var(--text);
+    }
+  }
+}
+
 .lead {
   font-size: 1.2em;
-  color: gray;
 }
 
 

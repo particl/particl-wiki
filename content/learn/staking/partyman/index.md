@@ -5,7 +5,7 @@ slug: partyman
 weight: 3
 tags:
   - staking
-  - dsd
+  - DSD
 ---
 
 {{< toc >}}

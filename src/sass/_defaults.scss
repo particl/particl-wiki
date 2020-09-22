@@ -25,8 +25,8 @@ $gray-800: rgba(52, 58, 64, 1) !default;
 $gray-900: rgba(33, 37, 41, 1) !default;
 $black: rgba(0, 0, 0, 1) !default;
 
-$color-link: rgba(10, 83, 154, 1) !default;
-$color-link-visited: rgba(119, 73, 191, 1) !default;
+$color-link: #1597DD !default;
+$color-link-visited: #5949A7 !default;
 $color-link-footer: rgba(255, 163, 30, 1) !default;
 
 $color-code: rgba($gray-200, 0.5) !default;
@@ -41,8 +41,8 @@ $body-min-width: 20rem !default;
 
 $container-max-width: 80rem !default;
 
-$main-color: rgba(65, 134, 201, 1) !default;
-$second-color: rgba(47, 51, 62, 1) !default;
+$main-color: #212727 !default;
+$second-color: #212727 !default;
 
 $header-height: 3.5rem !default;
 $menu-width: 16rem !default;
@@ -51,8 +51,8 @@ $sm-breakpoint: $menu-width + $body-min-width + 3rem !default;
 
 // Panel colors
 $hint-colors: (
-  info: rgba(102, 187, 255, 1),
-  warning: rgba(255, 221, 102, 1),
-  alert: rgba(255, 102, 102, 1),
-  success: rgba(6, 170, 0, 1),
+  info: #1597DD,
+  warning: #FFCE00,
+  alert: #FF542C,
+  success: #45D492,
 ) !default;

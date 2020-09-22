@@ -1,6 +1,6 @@
 ---
 baseURL: https://geekdocs.de/
-title: Particl.wiki
+title: Particl Project Wiki
 #theme: hugo-geekdoc
 pygmentsUseClasses: true
 pygmentsCodeFences: true

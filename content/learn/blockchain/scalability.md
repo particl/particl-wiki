@@ -37,7 +37,7 @@ Read the full [Bulletproofs whitepaper](https://eprint.iacr.org/2017/1066.pdf) c
 
 ## Lightning Network
 
-{{< hint info >}}
+{{< hint warning >}}
 Lightning network for Particl is **not yet implemented**
 {{< /hint >}}
 

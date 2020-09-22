@@ -6,12 +6,17 @@ https://gohugo.io/content-management/related/
 {{ $related := .Site.RegularPages.Related . | first 15 }}
 
 {{ with $related }}
-<ul>
-  {{ range . }}
-  <li>
-    <a href="{{ .RelPermalink }}">{{- .Title -}}</a>
-    <small>{{- .Params.Subtitle -}}</small>
-  </li>
-  {{ end }}
-</ul>
+<aside class="related gdoc-markdown">
+
+  <h2>Related articles</h2>
+  <ul>
+    {{ range . }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{- .Title -}}</a>
+      <small>{{- .Params.Subtitle -}}</small>
+    </li>
+    {{ end }}
+  </ul>
+
+</aside>
 {{ end }}

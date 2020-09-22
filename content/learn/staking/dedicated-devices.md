@@ -5,7 +5,7 @@ subtitle: Turn your Raspberry Pi into a dedicated staking device and run a full 
 weight: 3
 tags:
   - staking
-  - dsd
+  - DSD
   - TODO
 ---
 
