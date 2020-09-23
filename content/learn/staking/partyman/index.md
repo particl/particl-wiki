@@ -12,7 +12,7 @@ tags:
 
 ## About Partyman
 
-{{< image src="partyman-status.png" alt="Partyman displaying staking status" >}}
+{{< image class="side-thumb" src="partyman-status.png" alt="Partyman displaying staking status" >}}
 
 Partyman automates all kinds of heavy lifting related to running your own (staking) node. It's very lightweight and runs on many platforms, including ARM (for [DSD](/learn/staking/dedicated-devices/) like Raspberry Pi, Rock64 and others).
 

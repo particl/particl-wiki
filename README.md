@@ -43,7 +43,7 @@ Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclima
 To include static media, either put them in `/static` folder first (only applies for global site assets) OR create a [page bundle](https://gohugo.io/content-management/page-bundles/) (in short: convert `.md` file to folder of the same name + it's content into `index.md` + put all assets to be inluded in the same folder - you can then reference them relatively to the `index.md` file).
 
 ```
-{{< image src="image.png" [class="something"] [alt="desc"] [caption="caption"] >}}
+{{< image src="image.png" class="side-thumb" [alt="desc"] [caption="caption"] >}}
 ```
 
 ### Columns
@@ -81,8 +81,11 @@ Menus are defined in `data/menu/main.yml` and `../more.yml`
 - [ ] highlight important pages (w/ "important" tag) in lists - bold? star icon?
 
 Moved pages:
-- [ ] learn/staking/ -> learn/staking/intro
-- [ ] learn/hardware-wallets -> learn/wallets/hardware
+- learn/staking/ -> learn/staking/intro
+- learn/hardware-wallets -> learn/wallets/hardware
+- learn/market/ -> learn/market/overview
+
+- tutorial/market/start -> tutorial/market/intro
 
 ## Credits
 

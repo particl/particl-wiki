@@ -1,4 +1,4 @@
-<figure class="side-thumb {{ with .Get "class" }}{{ . }}{{ end }}">
+<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
 
   <a href="{{ .Get "src" }}" title="Click for larger image">
     <img

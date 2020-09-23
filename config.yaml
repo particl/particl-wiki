@@ -19,19 +19,25 @@ markup:
     endLevel: 9
 
 params:
+  # (Optional, default 6) Set how many table of contents levels to be showed on page.
+  # Use false to hide ToC, note that 0 will default to 6 (https://gohugo.io/functions/default/)
+  # You can also specify this parameter per page in front matter.
   geekdocToC: 3
 
   # (Optional, default static/brand.svg) Set the path to a logo for the Geekdoc
   # relative to your 'static/' folder.
   geekdocLogo: particl-wiki-symbol.svg
 
-  # true shows manually configured menu, false displays tree-structure of site's content
+  # (Optional, default false) Render menu from data file im 'data/menu/main.yaml'.
   #geekdocMenuBundle: true
 
   geekdocRepo: https://github.com/AllienWorks/particl-wiki
   geekdocEditPath: edit/master/content
 
   geekdocDateFormat: "Jan 2, 2006"
+
+  # (Optional, default true) Enables search function with flexsearch.
+  # Index is built on the fly and might slowdown your website.
   geekdocSearch: true
 
   # (Optional, default true) Add an anchor link to headlines.

@@ -12,7 +12,7 @@ tags:
 
 As the highest privacy state requires the most transaction fee, it may not always be the best type of transaction depending on the situation, especially when privacy is not predominantly required by the user.
 
-{{< image src="particl-transaction-types.jpg" alt="Particl's multiple privacy states" >}}
+{{< image class="side-thumb" src="particl-transaction-types.jpg" alt="Particl's multiple privacy states" >}}
 
 |                          | Public      | Blind       | Anon        |
 |--------------------------|:-----------:|:-----------:|:-----------:|

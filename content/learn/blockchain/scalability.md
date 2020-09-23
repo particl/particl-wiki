@@ -4,6 +4,7 @@ subtitle: Particl's approach to scalability
 slug: blockchain-scalability
 weight: -10
 tags:
+  - scalability
   - bulletproofs
   - lightning
   - segwit
