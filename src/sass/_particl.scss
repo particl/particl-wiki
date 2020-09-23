@@ -89,17 +89,26 @@ html {
 /* -------------- IMAGES -------------- */
 
 figure {
+  --radius: 6px;
   margin: 2rem 0;
   &.side-thumb {
     width: 250px;
     float: right;
     margin: 0 0 2rem 2rem;
   }
+  img {
+    border-top-right-radius: var(--radius);
+    border-top-left-radius: var(--radius);
+  }
   figcaption {
     text-align: center;
+    font-size: 0.8em;
+    padding: 0.8em 1em 1em;
     color: grey;
-    font-size: 0.9em;
-    margin-top: 0.2em;
+    line-height: 1.4;
+    background: #fafafa;
+    border-bottom-right-radius: var(--radius);
+    border-bottom-left-radius: var(--radius);
   }
 }
 
