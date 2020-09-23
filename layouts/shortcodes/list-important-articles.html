@@ -1,0 +1,9 @@
+{{ $important := .Site.RegularPages.RelatedTo ( keyVals "tags" "important") }}
+
+{{ with $important }}
+<ul>
+	{{ range . }}
+	<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+	{{ end }}
+</ul>
+{{ end }}

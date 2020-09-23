@@ -1,6 +1,7 @@
 ---
 title: Misc.
-subtitle: Other topics 
+subtitle: Other topics
+geekdocFlatSection: true
 weight: 20
 ---
 

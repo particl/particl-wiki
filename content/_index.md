@@ -22,25 +22,25 @@ Particl Wiki is split into four thematic sections – informative **Learn** arti
 
 {{< columns >}}
 
-{{< button href="/learn/" class="--full-width" >}}Learn{{< /button >}}
+{{< button relref="/learn/" class="--full-width" >}}Learn{{< /button >}}
 
 Discover Particl and its features
 
 <--->
 
-{{< button href="/learn/" class="--full-width" >}}Tutorials & Courses{{< /button >}}
+{{< button relref="/tutorial/" class="--full-width" >}}Tutorials & Courses{{< /button >}}
 
 Collections of tutorials and step-by-step walkthroughs
 
 <--->
 
-{{< button href="/learn/" class="--full-width" >}}Help & Support{{< /button >}}
+{{< button relref="/support/" class="--full-width" >}}Help & Support{{< /button >}}
 
 FAQ & Solving common problems
 
 <--->
 
-{{< button href="/learn/" class="--bigger --full-width" >}}Dev docs{{< /button >}}
+{{< button relref="/dev/" class="--bigger --full-width" >}}Dev docs{{< /button >}}
 
 Technical documentation for developers
 

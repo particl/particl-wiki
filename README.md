@@ -16,8 +16,11 @@ Hugo-based knowledge base for @particl Project
 
 - Table of Contents: `{{< toc >}}`
 - Tree ToC (list all child pages with hierarchy): `{{< tree-toc >}}`
-- Buttons: `{{< button href="/" [class="..."] >}}Text{{< /button >}}`
+- Buttons
+  - Internal: `{{< button relref="/" [class="..."] >}}Text{{< /button >}}`
+  - External: `{{< button href="/" [class="..."] >}}Text{{< /button >}}`
 - Icons: `{{< ico NAME >}}` - names correspond to icon file names in `/static/media/icons/`, e.g. `{{< ico yes >}}`
+- Youtube: `{{< youtube PRxmGh24ILU >}}` (`PRxmGh24ILU` stands for video ID found in it's URL)
 
 ### Tables
 
@@ -78,14 +81,21 @@ Menus are defined in `data/menu/main.yml` and `../more.yml`
 - [ ] image galleries/lightboxes (Learn > Privacy > TX types)
 - [ ] fix taxonomy pages (tag lists)
 - [ ] link to missing/unfinished pages in footer (http://localhost:1313/tags/TODO/)
-- [ ] highlight important pages (w/ "important" tag) in lists - bold? star icon?
+- [ ] highlight ★ important pages (w/ "important" tag) in lists - bold? star icon?
+  - batch-replace `{{fa>star}}` with `★`
 
 Moved pages:
-- learn/staking/ -> learn/staking/intro
-- learn/hardware-wallets -> learn/wallets/hardware
-- learn/market/ -> learn/market/overview
+- learn:staking: -> learn/staking/intro
+- learn:hardware-wallets -> learn/wallets/hardware
+- learn:market: -> learn/market/overview
 
-- tutorial/market/start -> tutorial/market/intro
+- tutorial:particl-desktop: -> tutorial/wallets/particl-desktop
+  + same for core, copay, cli
+- tutorial:ledger/trezor -> tutorial/wallets/ledger (trezor)
+- tutorial:market: -> tutorial/market/intro
+- tutorial:backup-restore-wallet -> tutorial/security/backup-restore-wallet
+- tutorial:staking: -> tutorial/staking/intro
+
 
 ## Credits
 
