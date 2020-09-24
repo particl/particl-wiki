@@ -17,8 +17,8 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.68.3'
-          # extended: true
+          hugo-version: '0.75.1'
+          extended: true
 
       - name: Build
         run: hugo --minify --config config.yaml,config-production.yaml
