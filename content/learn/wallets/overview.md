@@ -12,7 +12,7 @@ You can use one or all of them, it's up to you.
 ## Overview
 
 {{< hint info >}}
-[Particl Desktop](/tutorial/particl-desktop/) is a recommended wallet for most users as it offers the best of Particl's features, including Particl Open Marketplace.
+[Particl Desktop](/tutorial/wallets/particl-desktop/) is a recommended wallet for most users as it offers the best of Particl's features, including Particl Open Marketplace.
 {{< /hint >}}
 
 
@@ -22,18 +22,18 @@ You can use one or all of them, it's up to you.
 
 Main, desktop wallets for Windows, macOS and Linux
 
-- **[Particl Desktop](/tutorial/particl-desktop/)** – Main, feature-rich wallet for Particl with all bells and whistles
-- **[Particl Core](/tutorial/particl-core/)** – Qt-based wallet focused on stability and advanced features
-- **[Particl Copay](/tutorial/particl-copay/)** – Mobile & desktop wallet with multi-sig for increased security
+- **[Particl Desktop](/tutorial/wallets/particl-desktop/)** – Main, feature-rich wallet for Particl with all bells and whistles
+- **[Particl Core](/tutorial/wallets/particl-core/)** – Qt-based wallet focused on stability and advanced features
+- **[Particl Copay](/tutorial/wallets/particl-copay/)** – Mobile & desktop wallet with multi-sig for increased security
 
 <--->
 
 ### Hardware
 
-Compatible [hardware wallets](/learn/hardware-wallets/) for usage with [Particl Core](/tutorial/particl-core/)
+Compatible [hardware wallets](/learn/wallets/hardware/) for usage with [Particl Core](/tutorial/wallets/particl-core/)
 
-- **[Ledger](/tutorial/ledger/)** – Ledger wallets (Nano S/X)
-- **[Trezor](/tutorial/trezor/)** – Trezor wallets (One/T)
+- **[Ledger](/tutorial/wallets/ledger/)** – Ledger wallets (Nano S/X)
+- **[Trezor](/tutorial/wallets/trezor/)** – Trezor wallets (One/T)
 
 {{< /columns >}}
 
@@ -44,7 +44,7 @@ Compatible [hardware wallets](/learn/hardware-wallets/) for usage with [Particl 
 
 Mobile wallets for Android and iOS
 
-- **[Particl Copay](/tutorial/particl-copay/)** – Mobile & desktop wallet with multi-sig for increased security
+- **[Particl Copay](/tutorial/wallets/particl-copay/)** – Mobile & desktop wallet with multi-sig for increased security
 
 <--->
 
@@ -53,7 +53,7 @@ Mobile wallets for Android and iOS
 Advanced cli wallets for servers and dedicated staking devices (DSD)
 
 - **[Partyman](/learn/staking/partyman/)** – Utility for easier management of your staking nodes
-- **[Particl-cli](/tutorial/particl-cli/)** – Command-line interface wallet recommended for advanced users
+- **[Particl-cli](/tutorial/wallets/particl-cli/)** – Command-line interface wallet recommended for advanced users
 
 {{< /columns >}}
 
@@ -63,7 +63,7 @@ Advanced cli wallets for servers and dedicated staking devices (DSD)
 
 Overview of Particl wallets with supported features:
 
-| Feature | [Desktop](/tutorial/particl-desktop/) | [Core](/tutorial/particl-core/) | [cli](/tutorial/particl-cli/) | [Copay](/tutorial/particl-copay/) | [Ledger](/tutorial/ledger/) |
+| Feature | [Desktop](/tutorial/wallets/particl-desktop/) | [Core](/tutorial/wallets/particl-core/) | [cli](/tutorial/wallets/particl-cli/) | [Copay](/tutorial/wallets/particl-copay/) | [Ledger](/tutorial/ledger/) |
 | ------- | :--------------:|:----------:|:-----------:|:-------------:|:------:|
 | Opensource & Free to use | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} |
 | Send/receive [Public coins](/learn/transaction-types/) | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} |

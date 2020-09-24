@@ -4,8 +4,8 @@ subtitle: A hardware wallet is a special type of cryptocurrency wallet which sto
 slug: hardware
 weight: 10
 tags:
-  - ledger
-  - trezor
+  - Ledger wallet
+  - Trezor wallet
 ---
 
 ## Advantages

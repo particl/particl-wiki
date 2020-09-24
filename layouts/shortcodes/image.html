@@ -1,10 +1,7 @@
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
 
   <a href="{{ .Get "src" }}" title="Click for larger image">
-    <img
-      src="{{ .Get "src" }}"
-      {{ with .Get "alt" }} alt="{{ . }}"{{ end }}
-    >
+    <img src="{{ .Get "src" }}" {{ with .Get "alt" }} alt="{{ . }}"{{ end }}>
   </a>
 
   {{/* For figcaption, show "caption" text if provided, else show "alt", else nothing */}}

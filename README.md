@@ -21,6 +21,7 @@ Hugo-based knowledge base for @particl Project
   - External: `{{< button href="/" [class="..."] >}}Text{{< /button >}}`
 - Icons: `{{< ico NAME >}}` - names correspond to icon file names in `/static/media/icons/`, e.g. `{{< ico yes >}}`
 - Youtube: `{{< youtube PRxmGh24ILU >}}` (`PRxmGh24ILU` stands for video ID found in it's URL)
+- Labels: `<label type="primary|warning|alert|info">Label</label>`
 
 ### Tables
 
@@ -95,7 +96,9 @@ Moved pages:
 - tutorial:market: -> tutorial/market/intro
 - tutorial:backup-restore-wallet -> tutorial/security/backup-restore-wallet
 - tutorial:staking: -> tutorial/staking/intro
-
+- tutorial:passphrase-security -> tutorial/security/recovery-phrase
+- tutorial:verify-downloads -> tutorial/security/verify-downloads
+- tutorial:good-password -> tutorial/security/good-password
 
 ## Credits
 
