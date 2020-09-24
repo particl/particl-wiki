@@ -64,9 +64,9 @@ To include static media, either put them in `/static` folder first (only applies
 
 ```go
 {{< tabs "uniqueid" >}}
+{{< tab "Windows" >}} # Windows Content {{< /tab >}}
 {{< tab "macOS" >}} # macOS Content {{< /tab >}}
 {{< tab "Linux" >}} # Linux Content {{< /tab >}}
-{{< tab "Windows" >}} # Windows Content {{< /tab >}}
 {{< /tabs >}}
 ```
 
@@ -86,6 +86,8 @@ Menus are defined in `data/menu/main.yml` and `../more.yml`
   - batch-replace `{{fa>star}}` with `★`
 
 Moved pages:
+
+- learn:transaction-types -> learn/privacy/transaction-types
 - learn:staking: -> learn/staking/intro
 - learn:hardware-wallets -> learn/wallets/hardware
 - learn:market: -> learn/market/overview
@@ -99,6 +101,8 @@ Moved pages:
 - tutorial:passphrase-security -> tutorial/security/recovery-phrase
 - tutorial:verify-downloads -> tutorial/security/verify-downloads
 - tutorial:good-password -> tutorial/security/good-password
+- tutorial:privacy-tips -> tutorial/privacy/tips
+- tutorial:coin-control -> tutorial/privacy/coin-control
 
 ## Credits
 

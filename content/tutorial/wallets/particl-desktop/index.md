@@ -13,7 +13,7 @@ tags:
 **Recommended** for beginners and majority of users
 {{< /hint >}}
 
-{{< image class="side-thumb" src="particl-desktop.png" alt="Preview of Particl Desktop 2.0" >}}
+{{< image class="side-thumb" src="particl-desktop-3.0.png" alt="Preview of Particl Desktop 3.0" >}}
 
 
 ## About Particl Desktop
@@ -60,6 +60,8 @@ Open Terminal in extracted directory and launch Particl Desktop by executing `./
 6. Read and **accept the terms** and conditions if you agree with them to start using Particl Desktop
 
 ### Creating a new wallet
+
+{{< image class="side-thumb" src="particl-desktop-create-wallet.png" alt="Creating a new wallet on Particl Desktop 3.0" >}}
 
 When you launch Particl Desktop for the first time, you'll be prompted to create a new wallet. After all, without a working wallet, your Particl Desktop won't be very useful.
 
