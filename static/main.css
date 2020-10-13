@@ -1296,9 +1296,15 @@ figure.side-thumb {
   float: right;
   margin: 0 0 2rem 2rem
 }
-figure img {
+figure img,
+figure video {
   border-top-right-radius: var(--radius);
   border-top-left-radius: var(--radius)
+}
+figure video {
+  display: block;
+  width: 100%;
+  max-width: 100%
 }
 figure figcaption {
   text-align: center;

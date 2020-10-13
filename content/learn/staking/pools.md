@@ -42,8 +42,9 @@ While we will offer support for the cold staking pool code itself, we won’t be
 | **Crymel's Pool**     | https://particl.crymel.icu    | 2.5 %     |
 | **CoinRollin**        | https://coinroll.in           | 1 %       |
 | **Arcadia's Pool**    | https://stake.arcadia.agency/ | 3 %       |
+| **Coldstakingpool**   | https://coldstakingpool.com/  | 2.5%      |
 
-_Last update: 2020/08/24_
+_Last update: 2020/10/01_
 
 ## Advanced
 

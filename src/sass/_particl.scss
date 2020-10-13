@@ -120,7 +120,7 @@ html {
 }
 
 
-/* -------------- IMAGES -------------- */
+/* -------------- IMAGES & VIDEOS -------------- */
 
 figure {
   --radius: 6px;
@@ -130,9 +130,15 @@ figure {
     float: right;
     margin: 0 0 2rem 2rem;
   }
-  img {
+  img,
+  video {
     border-top-right-radius: var(--radius);
     border-top-left-radius: var(--radius);
+  }
+  video {
+    display: block;
+    width: 100%;
+    max-width: 100%;
   }
   figcaption {
     text-align: center;

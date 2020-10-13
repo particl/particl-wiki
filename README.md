@@ -89,6 +89,7 @@ Moved pages:
 
 - learn:transaction-types -> learn/privacy/transaction-types
 - learn:staking: -> learn/staking/intro
+- learn:wallets: -> learn/wallets/overview
 - learn:hardware-wallets -> learn/wallets/hardware
 - learn:market: -> learn/market/overview
 
@@ -100,9 +101,11 @@ Moved pages:
 - tutorial:staking: -> tutorial/staking/intro
 - tutorial:passphrase-security -> tutorial/security/recovery-phrase
 - tutorial:verify-downloads -> tutorial/security/verify-downloads
+- tutorial:multisig -> tutorial/security/multisig
 - tutorial:good-password -> tutorial/security/good-password
 - tutorial:privacy-tips -> tutorial/privacy/tips
 - tutorial:coin-control -> tutorial/privacy/coin-control
+- tutorial:staking: -> tutorial/staking/overview
 
 ## Credits
 
