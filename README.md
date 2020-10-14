@@ -101,8 +101,6 @@ Moved pages:
 - tutorial:market: -> tutorial/market/intro
 - tutorial:backup-restore-wallet -> tutorial/security/backup-restore-wallet
 - tutorial:staking: -> tutorial/staking/intro
-- tutorial:passphrase-security -> tutorial/security/recovery-phrase
-- tutorial:verify-downloads -> tutorial/security/verify-downloads
 - tutorial:multisig -> tutorial/security/multisig
 - tutorial:good-password -> tutorial/security/good-password
 - tutorial:privacy-tips -> tutorial/privacy/tips
@@ -110,7 +108,11 @@ Moved pages:
 - tutorial:staking: -> tutorial/staking/overview
 - tutorial:market: -> tutorial/market/intro
 - tutorial:market:* -> tutorial/marketplace/*intro*
+- tutorial:passphrase-security -> tutorial/security/recovery-phrase
+- tutorial:verify-downloads -> tutorial/security/verify-downloads
+- tutorial:good-passwprd -> tutorial/security/good-passwords
 
+- support: -> support/overview
 
 ## Credits
 

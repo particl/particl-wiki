@@ -789,7 +789,7 @@ img {
   line-height: 1.45;
   padding: .2em .4em
 }
-.gdoc-markdown > pre code {
+.gdoc-markdown pre code {
   display: block;
   padding: 1rem;
   width: 100%;
