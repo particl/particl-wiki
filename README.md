@@ -42,12 +42,14 @@ Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclima
 {{< /hint >}}
 ```
 
-### Images
+### Images & video
 
 To include static media, either put them in `/static` folder first (only applies for global site assets) OR create a [page bundle](https://gohugo.io/content-management/page-bundles/) (in short: convert `.md` file to folder of the same name + it's content into `index.md` + put all assets to be inluded in the same folder - you can then reference them relatively to the `index.md` file).
 
 ```
 {{< image src="image.png" class="side-thumb" [alt="desc"] [caption="caption"] >}}
+
+{{< video webm="video.webm" mp4="video.mp4" [alt="desc"] [caption="caption"] >}}
 ```
 
 ### Columns
@@ -91,7 +93,7 @@ Moved pages:
 - learn:staking: -> learn/staking/intro
 - learn:wallets: -> learn/wallets/overview
 - learn:hardware-wallets -> learn/wallets/hardware
-- learn:market: -> learn/market/overview
+- learn:market: -> learn/marketplace/overview
 
 - tutorial:particl-desktop: -> tutorial/wallets/particl-desktop
   + same for core, copay, cli
@@ -106,6 +108,9 @@ Moved pages:
 - tutorial:privacy-tips -> tutorial/privacy/tips
 - tutorial:coin-control -> tutorial/privacy/coin-control
 - tutorial:staking: -> tutorial/staking/overview
+- tutorial:market: -> tutorial/market/intro
+- tutorial:market:* -> tutorial/marketplace/*intro*
+
 
 ## Credits
 
