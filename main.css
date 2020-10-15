@@ -1254,6 +1254,14 @@ html {
 .gdoc-markdown p strong {
   color: var(--text)
 }
+.gdoc-markdown kbd {
+  border: 1px solid #ccc;
+  font-size: .85em;
+  padding: .1em .4em;
+  border-radius: 3px;
+  border-bottom-width: 2px;
+  background: #fafafa
+}
 .gdoc-markdown .icon {
   position: relative;
   top: -.05em;
