@@ -73,6 +73,14 @@ html {
       color: var(--text);
     }
   }
+  kbd {
+    border: 1px solid #ccc;
+    font-size: 0.85em;
+    padding: 0.1em 0.4em;
+    border-radius: 3px;
+    border-bottom-width: 2px;
+    background: #fafafa;
+  }
   // Icons (via Shortcodes)
   .icon {
     position: relative;
