@@ -115,6 +115,9 @@ Moved pages:
 
 - support: -> support/overview
 
+- dev: particl-desktop/particl-core:/trezor/ledger -> dev/wallets/*
+- dev: rpc-api/insight-api/coingecko-api/coinmarketcap-api/chainz-api -> dev/api/ rpc/insight/coingecko/coinmarketcap/chainz
+
 ## Credits
 
 Based on [@xoxys/hugo-geekdoc](https://github.com/xoxys/hugo-geekdoc)
