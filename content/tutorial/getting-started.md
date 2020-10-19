@@ -16,7 +16,7 @@ This series of guides will walk you through the first steps into Particl ecosyst
 This Wiki is a great informational and supportive resource for all things Particl. Understanding the whole project might be a bit overwhelming, so we propose studing it piece by piece. Many topics are covered here, but **at the bare minimum, you should read all the articles marked with ★ symbol** as those are the most important ones:
 
 <!-- Ouputs list of articles tagged with "important" tag: -->
-{{< list-important-articles >}}
+{{< list-articles important >}}
 
 ## Choose your wallet
 

@@ -1,0 +1,10 @@
+{{ $tag := .Get 0 }}
+{{ $taggedArticles := .Site.RegularPages.RelatedTo ( keyVals "tags" $tag) }}
+
+{{ with $taggedArticles }}
+<ul>
+	{{ range . }}
+	<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+	{{ end }}
+</ul>
+{{ end }}

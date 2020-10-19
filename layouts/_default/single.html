@@ -14,13 +14,16 @@
 
         <div class="meta">
             <p class="updated">
+                <svg class="icon date"><use xlink:href="#date"></use></svg>
                 Updated
                 <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
                     {{ .Lastmod.Format "January 2, 2006" }}
                 </time>
             </p>
+            {{ with .Params.tags }}
             <ul class="tags">
-                {{ range .Params.tags }}
+                <li><svg class="icon tags"><use xlink:href="#tags"></use></svg></li>
+                {{ range . }}
                 <li>
                     <span class="gdoc-button">
                         <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="gdoc-button__link --smaller">
@@ -30,6 +33,7 @@
                 </li>
                 {{ end }}
             </ul>
+            {{ end }}
         </div><!-- .meta -->
 
     </article>

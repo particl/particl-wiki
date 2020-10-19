@@ -1,5 +1,9 @@
 ---
 more:
+  - name: Contribute to Wiki
+    ref: "/contribute"
+    external: false
+    icon: "heart"
   - name: Particl News
     ref: "https://particl.news"
     external: true

@@ -53,6 +53,14 @@ To include static media, either put them in `/static` folder first (only applies
 {{< video webm="video.webm" mp4="video.mp4" [alt="desc"] [caption="caption"] >}}
 ```
 
+### List tagged articles
+
+To get a list of articles tagged with e.g. "important" use:
+
+```
+{{< list-articles important >}}
+```
+
 ### Columns
 
 ```
@@ -82,9 +90,10 @@ Menus are defined in `data/menu/main.yml` and `../more.yml`
 
 ### TODO
 
+- [ ] <label> shortcode
 - [ ] image galleries/lightboxes (Learn > Privacy > TX types)
 - [ ] fix taxonomy pages (tag lists)
-- [ ] link to missing/unfinished pages in footer (http://localhost:1313/tags/TODO/)
+- [x] link to missing/unfinished pages in footer (http://localhost:1313/tags/TODO/)
 - [ ] highlight ★ important pages (w/ "important" tag) in lists - bold? star icon?
   - batch-replace `{{fa>star}}` with `★`
 

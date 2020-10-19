@@ -22,6 +22,7 @@
 }
 
 .gdoc-button {
+  border-radius: 0.25rem;
   .gdoc-button__link {
     padding: 0.65rem 1rem;
     &.--smaller {
@@ -107,6 +108,18 @@ html {
       }
       &[type="info"] {
         background: var(--info);
+      }
+    }
+  }
+  .meta { // last updated + list of tags
+    margin: 2.5rem 0;
+    .updated {
+      margin: 0;
+    }
+    .icon {
+      margin-right: 0.5em;
+      &.tags {
+        top: 0.1em;
       }
     }
   }

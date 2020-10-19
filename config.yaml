@@ -46,12 +46,20 @@ params:
   # (Optional, default true) Copy anchor url to clipboard on click.
   geekdocAnchorCopy: true
 
-  geekdocLegalNotice: https://thegeeklab.de/legal-notice/#contact-information
-  geekdocPrivacyPolicy: https://thegeeklab.de/legal-notice/#privacy-policy
+  #geekdocLegalNotice: https://thegeeklab.de/legal-notice/#contact-information
+  #geekdocPrivacyPolicy: https://thegeeklab.de/legal-notice/#privacy-policy
 
 
 
 # Privacy enhancements (https://gohugo.io/about/hugo-and-gdpr/)
 privacy:
   youtube:
-      privacyEnhanced: true
+    privacyEnhanced: true
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  twitter:
+    disable: true
