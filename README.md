@@ -22,7 +22,7 @@ Hugo-based knowledge base for @particl Project
 - Icons: `{{< ico NAME >}}` - names correspond to icon file names in `/static/media/icons/`, e.g. `{{< ico yes >}}`
 - Youtube: `{{< youtube PRxmGh24ILU >}}` (`PRxmGh24ILU` stands for video ID found in it's URL)
 - Vimeo: `{{< vimeo 330290302 >}}` (`330290302` stands for video ID found in it's URL)
-- Labels: `<label type="primary|warning|alert|info">Label</label>`
+- Labels: `{{< label primary|warning|alert|info">Label{{< /label >}}`
 
 ### Tables
 
@@ -90,7 +90,7 @@ Menus are defined in `data/menu/main.yml` and `../more.yml`
 
 ### TODO
 
-- [ ] <label> shortcode
+- [x] <label> shortcode
 - [ ] image galleries/lightboxes (Learn > Privacy > TX types)
 - [ ] fix taxonomy pages (tag lists)
 - [x] link to missing/unfinished pages in footer (http://localhost:1313/tags/TODO/)

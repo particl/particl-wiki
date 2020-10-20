@@ -36,7 +36,7 @@ Also check out **[Partyman staking utility](/learn/staking/partyman/) which is a
 ### Installation
 
   1. **Download** [latest release](https://particl.io/downloads) latest release
-  2. <label type="primary">Recommended</label> Verify the downloaded archive (to make sure you haven't downloaded bad client, e.g. infected with malware)
+  2. {{< label primary >}}Recommended{{< /label >}} Verify the downloaded archive (to make sure you haven't downloaded bad client, e.g. infected with malware)
   3. Launch the client – see [Usage](#usage) below
   4. **Backup your wallet** – see [Backup & Restore wallet](/tutorial/security/backup-restore-wallet/) guide
 

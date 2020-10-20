@@ -40,7 +40,7 @@ Hackers and bad actors are constantly trying to distribute malware-infected vers
 {{< /hint >}}
 
 1. [**Download** the latest version](https://particl.io/downloads) of Particl Desktop
-2. <label type="info">Recommended</label> [**Verify** the downloaded wallet](/tutorial/security/verify-downloads/) to make sure you have the proper download and not a fake/malware-infected wallet
+2. {{< label info >}}Recommended{{< /label >}} [**Verify** the downloaded wallet](/tutorial/security/verify-downloads/) to make sure you have the proper download and not a fake/malware-infected wallet
 3. **Extract** the content of the ZIP file to any location on your computer
 4. **Launch** Particl Desktop:
 

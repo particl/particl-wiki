@@ -32,10 +32,10 @@ Please note that even though some of these steps are optional/recommended, it is
 {{< /hint >}}
 
   1. **Download** the [latest release](https://github.com/particl/particl-core/releases/latest)
-  2. <label type="info">Recommended</label> [Verify the downloaded archive](/tutorial/security/verify-downloads/) (to make sure you haven't downloaded bad client, e.g. infected with malware)
+  2. {{< label info >}}Recommended{{< /label >}} [Verify the downloaded archive](/tutorial/security/verify-downloads/) (to make sure you haven't downloaded bad client, e.g. infected with malware)
   3. Launch the client – double click `particl-qt` (in `bin/` directory)
   4. Follow instruction in app to create a new wallet
-  5. <label type="alert">Warning</label> Make absolutely sure to properly backup your Recovery Phrase safely (digital backups are not recommended)
+  5. {{< label alert >}}Warning{{< /label >}} Make absolutely sure to properly backup your Recovery Phrase safely (digital backups are not recommended)
   6. **Encrypt your wallet** with a secure passphrase – click on the lock icon in the status bar (bottom right)
   7. **Backup your wallet** – see [Backup & Restore wallet](/tutorial/security/backup-restore-wallet/) guide
 

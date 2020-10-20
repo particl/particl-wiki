@@ -47,6 +47,12 @@ When in doubt about some of the formatting, check other similar pages on the Wik
 
 ### Editing/creating pages
 
+This section covers editing Wiki directly from Github's built-in text editor.
+
+{{< hint info >}}
+**If you're more tech-savvy and adventurous**, you can run the Wiki locally on your system -- in that case, please refer to Wiki's [`README`]({{< repo-url >}}/blob/master/README.md) on how to run Hugo and compile everything.
+{{< /hint >}}
+
 {{< tabs "how-to-edit" >}}
 {{< tab "Editing existing pages" >}}
 
@@ -215,18 +221,16 @@ For inserting icons from [`/static/media/icons/`](https://github.com/AllienWorks
 
 ### Labels
 
-Labels are a bit of exception for the time being, but they will be eventually converted to shortcode as well:
-
-<label type="primary">Primary label</label>
-<label type="warning">Warning</label>
-<label type="alert">Alert</label>
-<label type="info">Info</label>
+{{< label primary >}}Primary{{< /label >}}
+{{< label warning >}}Warning{{< /label >}}
+{{< label alert >}}Alert{{< /label >}}
+{{< label info >}}Info{{< /label >}}
 
 ```
-<label type="primary">Primary label</label>
-<label type="warning">Warning</label>
-<label type="alert">Alert</label>
-<label type="info">Info</label>
+{{</* label primary */>}}Primary{{</* /label */>}}
+{{</* label warning */>}}Warning{{</* /label */>}}
+{{</* label alert */>}}Alert{{</* /label */>}}
+{{</* label info */>}}Info{{</* /label */>}}
 ```
 
 

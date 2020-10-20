@@ -27,7 +27,7 @@ SMSG messages are shared in a peer-to-peer way between all the nodes running the
 
 ### Listing stage
 
-<lead>The <label type="info">Seller</label> lists an item for sale</lead>
+<lead>The {{< label info >}}Seller{{< /label >}} lists an item for sale</lead>
 
 1. To list an item, first go to the **Sell** page of Particl Desktop
 1. On the **Sell** page, you will see a list of all previously listed items. To add a new one, click on `+ Add new listing`
@@ -44,7 +44,7 @@ In other words, the longer it stays up, and the more images/text your Listing ha
 
 ### Bidding stage
 
-<lead>The <label type="primary">Buyer</label> places a bid on item</lead>
+<lead>The {{< label primary >}}Buyer{{< /label >}} places a bid on item</lead>
 
 During this step, the Buyer is going to place a bid (an order) and ["soft lock" twice the amount](/learn/marketplace/mad-escrow) of the item being purchased (including shipping costs). Placing a bid will most probably use more than twice the value of the purchased item, but the extra funds will be refunded after ~30 minutes. To know why, checkout [FAQ: Why is a big portion of my Anon balance getting locked after bidding on an item?](/support/faq/market#why-is-a-big-portion-of-my-anon-balance-getting-locked-after-bidding-on-an-item)
 
@@ -61,7 +61,7 @@ During this step, the Buyer is going to place a bid (an order) and ["soft lock" 
 
 ### Order stage
 
-<lead>The <label type="info">Seller</label> accepts/rejects Buyer's bid</lead>
+<lead>The {{< label info >}}Seller{{< /label >}} accepts/rejects Buyer's bid</lead>
 
 - If the seller **rejects the bid**, the soft locked funds will release back to you and the Order will be cancelled
 - If the seller **accepts the bid**, the funds required for the escrow will soft lock on his side as well and the Buy flow continues
@@ -74,7 +74,7 @@ To accept/reject incoming bids from Buyers:
 
 ### Escrow stage
 
-<lead>The <label type="primary">Buyer</label> makes payment into Escrow smart-contract</lead>
+<lead>The {{< label primary >}}Buyer{{< /label >}} makes payment into Escrow smart-contract</lead>
 
 1. Go to the **Buy** page and click on the `Orders` tab to see your order
 1. Click on the `Make payment` button to fund the escrow smart-contract
@@ -84,7 +84,7 @@ To accept/reject incoming bids from Buyers:
 
 ### Escrow stage, pt. II
 
-<lead>The <label type="info">Seller</label> makes payment into Escrow smart-contract</lead>
+<lead>The {{< label info >}}Seller{{< /label >}} makes payment into Escrow smart-contract</lead>
 
 1. Go to the **Sell** page and click on the `Orders` tab to see your Order
 1. Click on the `Complete escrow` button to fund the escrow smart-contract and complete the payment process
@@ -93,7 +93,7 @@ To accept/reject incoming bids from Buyers:
 
 ### Packaging & shipping stage
 
-<lead>The <label type="info">Seller</label> packages and ships the item to Buyer</lead>
+<lead>The {{< label info >}}Seller{{< /label >}} packages and ships the item to Buyer</lead>
 
 1. Package and ship your item
 1. Go to the **Sell** page and click on the `Orders` tab to see your Order
@@ -104,7 +104,7 @@ To accept/reject incoming bids from Buyers:
 
 ### Delivered/complete stage
 
-<lead>The <label type="primary">Buyer</label> receives the item</lead>
+<lead>The {{< label primary >}}Buyer{{< /label >}} receives the item</lead>
 
 1. Wait to receive your order – you can go to the **Buy** page and click on the `Orders` tab to see the tracking number of the Order
 1. Once received, inspect the package as well as the product to make sure it is all good
