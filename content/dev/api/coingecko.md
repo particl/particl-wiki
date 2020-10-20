@@ -4,7 +4,7 @@ subtitle: 100% free crypto API by CoinGecko
 slug:
 weight: 3
 tags:
-  - api
+  - API
 ---
 
 Access CoinGecko data such as live pricing, trading volume, tickers, exchanges, historical data, coin info & images, developer & community stats, events, global markets, and CoinGecko Beam coins & exchanges status updates directly.

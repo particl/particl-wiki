@@ -4,7 +4,7 @@ subtitle: Freemium crypto API by Coinmarketcap
 slug:
 weight: 5
 tags:
-  - api
+  - API
 ---
 
 > The world's cryptocurrency data authority has a professional API made for you.

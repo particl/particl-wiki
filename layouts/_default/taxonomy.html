@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+    {{ partial "page-header" . }}
+
+    <article class="gdoc-markdown">
+        
+        <h1>{{ partial "title" . }}</h1>
+
+        {{ with .Params.subtitle }}
+        <p class="lead">{{ . }}</p>
+        {{ end }}
+
+        {{ partial "content" . }}
+
+        <section class="gdoc-toc taxonomy-list">
+            <ul>
+            {{/* range .Paginator.Pages */}}
+            {{ range .Pages }}
+                <li>
+                    <span>
+                        <a href="{{ .Permalink }}" class="gdoc-toc__entry">{{ .Params.Title }}</a>
+                        {{ with .Params.Subtitle }}<small>{{ . }}</small>{{ end }}
+                    </span>
+                </li>
+            {{ end }}
+            </ul>
+        </section>
+
+    </article>
+
+{{ end }}

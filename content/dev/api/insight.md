@@ -4,7 +4,7 @@ subtitle: Insight API as a part of Particl Block Explorer
 slug:
 weight: 2
 tags:
-  - api
+  - API
 ---
 
 {{< hint info >}}

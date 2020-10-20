@@ -4,7 +4,7 @@ subtitle: Free crypto API by CryptoID's Chainz
 slug:
 weight: 4
 tags:
-  - api
+  - API
 ---
 
 {{< hint warning >}}

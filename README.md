@@ -7,7 +7,7 @@ Hugo-based knowledge base for @particl Project
 
 1. Clone repo
 2. Install [Hugo](gohugo.io)
-3. To run Hugo dev server: `hugo server -D`
+3. To run Hugo dev server: `hugo server --disableFastRender`
 4. To compile assets: `gulp` (one-time) or `gulp devel` (continuous)
 5. To check production version locally: `hugo` and then check the result in `/public` folder
 

@@ -4,7 +4,7 @@ subtitle:
 slug:
 weight: 1
 tags:
-  - api
+  - API
   - TODO
 ---
 

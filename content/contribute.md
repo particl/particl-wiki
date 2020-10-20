@@ -11,9 +11,9 @@ tags:
 
 ## List of incomplete articles
 
-These articles are either completely missing or just unfinished. Since other articles are linking to them, these should be written ASAP:
+Articles tagged with "TODO" are either completely missing or just unfinished. Since other articles are linking to them, these should be written ASAP. Contributing to these is highly appreciated!
 
-{{< list-articles TODO >}}
+{{< button relref="/tags/TODO" >}}List of incomplete articles{{< /button >}}
 
 {{< hint info >}}
 **To mark an article as incomplete**\
@@ -106,7 +106,7 @@ Let's go through the frontmatter here:
 - `subtitle:` summary of the article (shown below the heading, in Article lists and Related pages)
 - `slug:` (optional, not needed in 90% of cases) used to overwrite the page's URL (URL is normally derived from file name)
 - `weight:` defines position of the page in article lists and menus -- higher number = lower position
-- `tags:` tags used to mark topics of the page (e.g. "staking", "Particl Desktop" etc.)
+- `tags:` tags used to mark topics of the page (e.g. "staking", "Particl Desktop" etc.) -- see [list of available tags](/tags)
 
 If you're not sure about any of these and how to fill them up, see some other existing pages -- feel free to copy-paste.
 
