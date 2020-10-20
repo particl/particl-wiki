@@ -1210,6 +1210,9 @@ img {
 .gdoc-brand {
   font-size: 1.45rem
 }
+.gdoc-button {
+  border-radius: .25rem
+}
 .gdoc-button .gdoc-button__link {
   padding: .65rem 1rem
 }
@@ -1286,6 +1289,18 @@ html {
 }
 .gdoc-markdown label[type][type=info] {
   background: var(--info)
+}
+.gdoc-markdown .meta {
+  margin: 2.5rem 0
+}
+.gdoc-markdown .meta .updated {
+  margin: 0
+}
+.gdoc-markdown .meta .icon {
+  margin-right: .5em
+}
+.gdoc-markdown .meta .icon.tags {
+  top: .1em
 }
 .lead {
   font-size: 1.2em
