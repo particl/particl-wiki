@@ -29,15 +29,15 @@ To contribute to this Wiki, you will need just a couple of things:
 
 1. a free **GitHub** account
 2. basic knowledge of **Markdown** syntax/formatting (don't worry, it's very easy)
-3. at least some familiarity with Wiki Shortcodes
+3. at least some familiarity with Wiki [Shortcodes](#useful-shortcodes)
 
 Let's get through these one by one:
 
-### Registering on GitHub
+**Registering on GitHub**
 
 Head over to [GitHub](https://github.com) and sign up if you haven't already. GitHub is one of the most popular open source hubs, so your new account will come in handy in the future. Even our new [Particl Community Crowdfunding](https://ccs.particl.io) relies on GitHub!
 
-### Markdown syntax
+**Markdown syntax**
 
 There are many Markdown tutorials online (e.g. [basic syntax](https://www.markdownguide.org/cheat-sheet) and [in-depth one](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)), so we'll skip that - refer to the linked articles instead.
 
@@ -45,11 +45,74 @@ Besides Markdown, we're making use of Shortcodes. For a reference on what they a
 
 When in doubt about some of the formatting, check other similar pages on the Wiki how they are structured, formatted etc. No need to reinvent the wheel.
 
-### Submitting your changes
+### Editing/creating pages
 
-OK, you have your GitHub account ready, you have your changes ready - what now?
+{{< tabs "how-to-edit" >}}
+{{< tab "Editing existing pages" >}}
 
-{{< todo >}}
+#### Editing existing pages
+
+1. Locate the page you would like to update directly on the Wiki
+2. Click the <kbd>Edit this page</kbd> link in the upper right corner
+3. This will redirect you to the [Wiki repository on GitHub]({{< repo-url >}}) and ask you to _fork the repository_ (if you haven't done that already) - click <kbd>Fork this repository</kbd> button
+4. After forking, text editor will appear with the contents of the page you chose to edit
+5. Now it's time to make your changes!
+6. When you're done with edits, fill in the form below the editor - add some meaningful summary of your changes in the first field (if you need some more space, feel free to add longer description in the second field as well) - finish up by clicking <kbd>Propose changes</kbd> button
+7. You'll be taken to the overview of your changes, click the <kbd>Create pull request</kbd> to send your changes for approval
+
+{{< /tab >}}
+{{< tab "Creating new pages" >}}
+
+#### Creating new pages
+
+1. If you haven't forked the Wiki repository yet, visit [Wiki's repo]({{< repo-url >}}) and click the <kbd>Fork</kbd> button in the upper right corner
+2. Locate the file, where you want to create a new page -- all written content is in [`/content`]({{< repo-url >}}/tree/master/content) folder
+
+{{< hint warning >}}
+**Files are organized regarding to the Wiki structure**\
+`dev` for developer docs, `learn` for informative articles, `support` for troubleshooting guides and `tutorial` for howtos and guides -- please respect this structure and choose a place for your new page accordingly!
+{{< /hint >}}
+
+3. When you have found the ideal place for your page, click the <kbd>Add file</kbd> dropdown in the top right and select <kbd>Create new file</kbd>
+4. Start with name of your page (in _Name your file..._ field at the top) -- choose short, descriptive file name (use dashes `-` instead of spaces if needed)
+5. Write your content in the text area below -- start by adding the frontmatter and your content -- here's a template to get you started:
+
+```
+---
+title: Staking PART on your smartwatch
+subtitle: Stake your coins with every step taken
+slug:
+weight: 5
+tags:
+  - staking
+  - smartwatch
+---
+
+{{</* toc */>}}
+
+Write your Markdown-formatted content here..
+```
+
+Let's go through the frontmatter here:
+
+- it must begin and end with `---`s
+- `title:` article's title shown as level 1 heading
+- `subtitle:` summary of the article (shown below the heading, in Article lists and Related pages)
+- `slug:` (optional, not needed in 90% of cases) used to overwrite the page's URL (URL is normally derived from file name)
+- `weight:` defines position of the page in article lists and menus -- higher number = lower position
+- `tags:` tags used to mark topics of the page (e.g. "staking", "Particl Desktop" etc.)
+
+If you're not sure about any of these and how to fill them up, see some other existing pages -- feel free to copy-paste.
+
+6. When you're done with edits, fill in the form below the editor - add some meaningful summary of your changes in the first field (if you need some more space, feel free to add longer description in the second field as well) - finish up by clicking <kbd>Propose changes</kbd> button
+7. You'll be taken to the overview of your changes, click the <kbd>Create pull request</kbd> to send your changes for approval
+
+{{< /tab >}}
+{{< /tabs >}}
+
+Now it's up to the Wiki maintainers to approve your PR and "merge" your changes. This will make them live on the Wiki for the general public -- great, you've made your first contribution to open source!
+
+In case there are some issues (incorrect info submitted, broken formatting or something like that), you might be asked by Wiki maintainers to update your changes accordingly and fix what's broken. If that's the case, repeat steps 5-6 to submit additional edits, until your changes are approved and merged.
 
 
 ## Useful Shortcodes
