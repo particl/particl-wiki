@@ -495,12 +495,6 @@ img {
   margin-right: 1em;
   line-height: 1.5em
 }
-.gdoc-footer__link {
-  color: #ffa31e
-}
-.gdoc-footer__link:visited {
-  color: #ffa31e
-}
 .gdoc-search {
   position: relative
 }
@@ -1205,23 +1199,12 @@ img {
   --info: #2183EF;
   --success: var(--primary);
   --text: #212121;
-  --text-muted: #5e5e5e
+  --text-muted: #757575;
+  --bg: #fff;
+  --bg-muted: #e8e8e8
 }
 .gdoc-brand {
   font-size: 1.45rem
-}
-.gdoc-button {
-  border-radius: .25rem
-}
-.gdoc-button .gdoc-button__link {
-  padding: .65rem 1rem
-}
-.gdoc-button .gdoc-button__link.--smaller {
-  padding: .25rem .6rem;
-  font-size: .9em
-}
-.gdoc-button.--full-width {
-  width: 100%
 }
 .related-articles .gdoc-expand__head {
   padding: 1rem
@@ -1359,6 +1342,77 @@ html {
   display: block;
   line-height: 1.6em;
   margin-bottom: 1em
+}
+.gdoc-button {
+  border-radius: .25rem
+}
+.gdoc-button .gdoc-button__link {
+  padding: .65rem 1rem
+}
+.gdoc-button .gdoc-button__link.--smaller {
+  padding: .25rem .6rem;
+  font-size: .9em
+}
+.gdoc-button.--full-width {
+  width: 100%
+}
+.gdoc-button.--huge {
+  border: 0
+}
+@media only screen and (min-width:700px) {
+  .gdoc-button.--huge {
+    margin: .5rem 0
+  }
+}
+.gdoc-button.--huge:focus,
+.gdoc-button.--huge:hover {
+  background: 0 0;
+  color: var(--text)
+}
+.gdoc-button.--huge a.gdoc-button__link {
+  padding: 1.5rem 1.2rem .3rem;
+  border: 2px solid var(--bg-muted);
+  transition: all .15s;
+  display: block
+}
+.gdoc-button.--huge a.gdoc-button__link:focus,
+.gdoc-button.--huge a.gdoc-button__link:hover {
+  border-color: transparent;
+  box-shadow: 0 1px 13px var(--bg-muted)
+}
+.gdoc-button.--huge a.gdoc-button__link:focus .icon,
+.gdoc-button.--huge a.gdoc-button__link:hover .icon {
+  transition: all .15s
+}
+.gdoc-button.--huge a.gdoc-button__link:focus .icon.learn,
+.gdoc-button.--huge a.gdoc-button__link:hover .icon.learn {
+  fill: var(--secondary)
+}
+.gdoc-button.--huge a.gdoc-button__link:focus .icon.tutorials,
+.gdoc-button.--huge a.gdoc-button__link:hover .icon.tutorials {
+  fill: var(--primary)
+}
+.gdoc-button.--huge a.gdoc-button__link:focus .icon.support,
+.gdoc-button.--huge a.gdoc-button__link:hover .icon.support {
+  fill: var(--alert)
+}
+.gdoc-button.--huge a.gdoc-button__link:focus .icon.dev,
+.gdoc-button.--huge a.gdoc-button__link:hover .icon.dev {
+  fill: var(--tertiary)
+}
+.gdoc-button.--huge .icon {
+  display: inline-block;
+  font-size: 2rem;
+  margin: 0
+}
+.gdoc-button.--huge .title {
+  font-weight: 600;
+  display: block;
+  margin: .7rem 0
+}
+.gdoc-button.--huge p.desc {
+  font-size: .9rem;
+  line-height: 1.5
 }
 figure {
   --radius: 6px;

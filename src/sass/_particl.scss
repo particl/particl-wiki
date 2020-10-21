@@ -11,7 +11,15 @@
   --success: var(--primary);
 
   --text: #212121;
-  --text-muted: #5e5e5e;
+  --text-muted: #757575;
+
+  --bg: #fff;
+  --bg-muted: #e8e8e8;
+}
+
+@mixin break-from($size) {
+  // Usage: @include break-from(741px) {  }
+  @media only screen and (min-width: $size) { @content; }
 }
 
 
@@ -19,20 +27,6 @@
 
 .gdoc-brand {
   font-size: 1.45rem;
-}
-
-.gdoc-button {
-  border-radius: 0.25rem;
-  .gdoc-button__link {
-    padding: 0.65rem 1rem;
-    &.--smaller {
-      padding: 0.25rem 0.6rem;
-      font-size: 0.9em;
-    }
-  }
-  &.--full-width {
-    width: 100%;
-  }
 }
 
 // Related articles
@@ -169,8 +163,9 @@ html {
 }
 
 
-// Tree-TOC
+/* -------------- SHORTCODES -------------- */
 
+// Tree-TOC
 .gdoc-toc {
   span.tag {
     text-transform: uppercase;
@@ -188,6 +183,62 @@ html {
     display: block;
     line-height: 1.6em;
     margin-bottom: 1em;
+  }
+}
+
+// Buttons
+.gdoc-button {
+  border-radius: 0.25rem;
+  .gdoc-button__link {
+    padding: 0.65rem 1rem;
+    &.--smaller {
+      padding: 0.25rem 0.6rem;
+      font-size: 0.9em;
+    }
+  }
+  &.--full-width {
+    width: 100%;
+  }
+  &.--huge { // Huge buttons on homepage (for sections)
+    border: 0;
+    @include break-from(700px) { margin: 0.5rem 0; }
+    &:hover,
+    &:focus {
+      background: transparent;
+      color: var(--text);
+    }
+    a.gdoc-button__link {
+      padding: 1.5rem 1.2rem 0.3rem;
+      border: 2px solid var(--bg-muted);
+      transition: all 0.15s;
+      display: block;
+      &:hover,
+      &:focus {
+        border-color: transparent;
+        box-shadow: 0 1px 13px var(--bg-muted);
+        .icon {
+          transition: all 0.15s;
+          &.learn { fill: var(--secondary); }
+          &.tutorials { fill: var(--primary); }
+          &.support { fill: var(--alert); }
+          &.dev { fill: var(--tertiary); }
+        }
+      }
+    }
+    .icon {
+      display: inline-block;
+      font-size: 2rem;
+      margin: 0;
+    }
+    .title {
+      font-weight: 600;
+      display: block;
+      margin: 0.7rem 0;
+    }
+    p.desc {
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
   }
 }
 

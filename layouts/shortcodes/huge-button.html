@@ -1,0 +1,19 @@
+{{ $ref := "" }}
+{{ $target := "" }}
+
+{{ with .Get "href" }}
+  {{ $ref = . }}
+  {{ $target = "_blank" }}
+{{ end }}
+
+{{ with .Get "relref" }}
+  {{ $ref = relref $ . }}
+{{ end }}
+
+<span class="gdoc-button --huge{{ with .Get "class" }} {{ . }}{{ end }}">
+  <a {{ with $ref }} href="{{.}}" {{ end }} {{ with $target }} target="{{.}}" {{ end }} class="gdoc-button__link">
+    <svg class="icon {{ .Get "icon"}}"><use xlink:href="#{{ .Get "icon"}}"></use></svg>
+    <span class="title">{{ .Get "title" }}</span>
+    <p class="desc">{{ .Get "desc" }}</p>
+  </a>
+</span>

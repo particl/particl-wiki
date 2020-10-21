@@ -3,12 +3,6 @@ title: Particl Wiki
 subtitle: Knowledge base for all the tutorials, howtos and in-depth explanations for Particl Project, the privacy-focused cryptocurrency & platform
 ---
 
-{{< button href="https://particl.io" class="primary" >}}Official site{{< /button >}}
-{{< button href="https://particl.news" >}}Latest news{{< /button >}}
-{{< button href="https://twitter.com/ParticlProject" >}}Twitter{{< /button >}}
-
-## Welcome to Particl Wiki!
-
 {{< hint info >}}
 **New to Particl?**\
 Check out our **[Getting started](/tutorial/getting-started/)** guide!
@@ -19,29 +13,33 @@ Check out our **[Getting started](/tutorial/getting-started/)** guide!
 
 Particl Wiki is split into four thematic sections – informative **Learn** articles, **Tutorials** with guides and howto's, **Help & Support** when things break and you need assistance and finally **Dev docs** with technical documentation for developers.
 
+You can also browse [list of used tags](/tags) instead if that's what you prefer.
+
 
 {{< columns >}}
 
-{{< button relref="/learn/" class="--full-width" >}}Learn{{< /button >}}
-
-Discover Particl and its features
+{{< huge-button relref="/learn/" icon="learn" title="Learn" desc="Discover Particl and its features" class="learn --full-width" >}}
 
 <--->
 
-{{< button relref="/tutorial/" class="--full-width" >}}Tutorials & Courses{{< /button >}}
-
-Collections of tutorials and step-by-step walkthroughs
+{{< huge-button relref="/tutorial/" icon="tutorials" title="Tutorials & Courses" desc="Tutorials and step-by-step walkthroughs" class="tutorial --full-width" >}}
 
 <--->
 
-{{< button relref="/support/" class="--full-width" >}}Help & Support{{< /button >}}
-
-FAQ & Solving common problems
+{{< huge-button relref="/support/" icon="support" title="Help & Support" desc="FAQ & Solving common problems" class="support --full-width" >}}
 
 <--->
 
-{{< button relref="/dev/" class="--bigger --full-width" >}}Dev docs{{< /button >}}
-
-Technical documentation for developers
+{{< huge-button relref="/dev/" icon="dev" title="Dev docs" desc="Technical documentation for developers" class="dev --full-width" >}}
 
 {{< /columns >}}
+
+
+## Contribute
+
+Found inaccurate info or missing content? [Learn how to contribute!](/contribute)
+
+{{< button href="https://particl.io" class="primary" >}}Official site{{< /button >}}
+{{< button href="https://particl.news" >}}Latest news{{< /button >}}
+{{< button href="https://ccs.particl.io" >}}Crowdfunding{{< /button >}}
+{{< button href="https://twitter.com/ParticlProject" >}}Twitter{{< /button >}}
