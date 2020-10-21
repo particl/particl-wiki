@@ -133,6 +133,18 @@ html {
 // Tree-TOC
 
 .gdoc-toc {
+  span.tag {
+    text-transform: uppercase;
+    color: var(--text-muted);
+    font-size: 0.7em;
+    line-height: 1;
+    border: 1px solid #979797;
+    padding: 1px 0.3rem;
+    border-radius: 4px;
+    margin-left: 0.4rem;
+    position: relative;
+    top: -1px;
+  }
   small {
     display: block;
     line-height: 1.6em;
