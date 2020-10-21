@@ -5,6 +5,8 @@ slug:
 weight: 1
 tags:
   - Particl Desktop
+aliases:
+  - /tutorial/particl-desktop/start
 ---
 
 {{< toc >}}

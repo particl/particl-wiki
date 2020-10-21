@@ -6,6 +6,8 @@ weight: 2
 tags:
   - security
   - important
+aliases:
+  - /tutorial/backup-restore-wallet
 ---
 
 Your funds are backed up by [Recovery Phrase](/tutorial/security/recovery-phrase) (~ mnemonic seed) during wallet creation and that is enough to keep your coins safe. However if you want to backup all the additional data like addresses saved in Address Book and more, you'll need to backup your `wallet.dat` file.

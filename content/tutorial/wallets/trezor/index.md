@@ -6,6 +6,8 @@ weight: 4
 tags:
   - Trezor wallet
   - TODO
+aliases:
+  - /tutorial/trezor
 ---
 
 {{< todo >}}

@@ -6,6 +6,8 @@ weight: 2
 tags:
   - market
   - Particl Desktop
+aliases:
+  - /tutorial/market/buying-selling
 ---
 
 If you've already installed the Particl Open Marketplace and have it enabled on your [Particl Desktop](/tutorial/wallets/particl-desktop) client, then you're all set and ready to start buying and selling stuff for crypto without giving away your data.

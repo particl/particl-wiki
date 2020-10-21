@@ -6,6 +6,8 @@ weight: 1
 tags:
   - security
   - important
+aliases:
+  - /tutorial/passphrase-security
 ---
 
 Recovery Phrases (sometimes also called Mnemonic or just Seed) are strings of usually 12, 18 or 24 words, which are used to recover crypto wallets in cases of emergency. That being said, whoever gets access to your Recovery Phrase can access your coins as well. This presents a security risk if your Recovery Phrase gets stolen or discovered by some malicious actor.

@@ -5,6 +5,8 @@ slug:
 weight: 4
 tags:
   - API
+aliases:
+  - /dev/chainz-api
 ---
 
 {{< hint warning >}}

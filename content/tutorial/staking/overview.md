@@ -6,6 +6,8 @@ weight: 1
 tags:
   - staking
   - important
+aliases:
+  - /tutorial/staking/start
 ---
 
 {{< toc >}}

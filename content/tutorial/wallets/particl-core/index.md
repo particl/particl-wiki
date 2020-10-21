@@ -5,6 +5,8 @@ slug:
 weight: 2
 tags:
   - Particl Core
+aliases:
+  - /tutorial/particl-core/start
 ---
 
 {{< image class="side-thumb" src="particl-core.png" alt="Preview of Particl Core" >}}

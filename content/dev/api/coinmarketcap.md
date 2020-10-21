@@ -5,6 +5,8 @@ slug:
 weight: 5
 tags:
   - API
+aliases:
+  - /dev/coinmarketcap-api
 ---
 
 > The world's cryptocurrency data authority has a professional API made for you.

@@ -5,6 +5,8 @@ slug: tips
 weight: 3
 tags:
   - privacy
+aliases:
+  - /tutorial/privacy-tips
 ---
 
 {{< toc >}}

@@ -6,6 +6,8 @@ weight: 1
 tags:
   - market
   - important
+aliases:
+  - /learn/market/start
 ---
 
 {{< toc >}}

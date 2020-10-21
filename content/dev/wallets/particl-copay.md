@@ -7,6 +7,8 @@ tags:
   - dev
   - Particl Copay
   - TODO
+aliases:
+  - /dev/particl-copay
 ---
 
 {{< todo >}}

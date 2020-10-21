@@ -6,6 +6,8 @@ weight: 10
 tags:
   - Ledger wallet
   - Trezor wallet
+aliases:
+  - /learn/hardware-wallets
 ---
 
 ## Advantages

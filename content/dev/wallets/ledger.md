@@ -7,6 +7,8 @@ tags:
   - dev
   - Ledger wallet
   - TODO
+aliases:
+  - /dev/ledger
 ---
 
 {{< todo >}}

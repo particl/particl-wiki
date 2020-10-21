@@ -6,6 +6,8 @@ weight: 1
 tags:
   - dev
   - Particl Desktop
+aliases:
+  - /dev/particl-desktop
 ---
 
 [Particl Desktop](/tutorial/wallets/particl-desktop) is Particl's flagship client/wallet for interacting with PART network, including [Particl Open Marketplace](/learn/marketplace/overview).

@@ -7,6 +7,8 @@ tags:
   - market
   - Particl Desktop
   - important
+aliases:
+  - /tutorial/market/start
 ---
 
 ## Requirements

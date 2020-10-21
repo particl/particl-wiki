@@ -6,6 +6,8 @@ weight: 4
 tags:
   - privacy
   - coin control
+aliases:
+  - /tutorial/coin-control
 ---
 
 {{< todo >}}

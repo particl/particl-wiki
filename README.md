@@ -84,6 +84,8 @@ To get a list of articles tagged with e.g. "important" use:
 
 ## Notes
 
+- since this Hugo-based wiki has slightly different file/folder and link structure than the former Dokuwiki, links to pages that didn't match are solved via `aliases` parameter in articles' frontmatter
+
 ### Menus
 
 Menus are defined in `data/menu/main.yml` and `../more.yml`
@@ -91,36 +93,6 @@ Menus are defined in `data/menu/main.yml` and `../more.yml`
 ### TODO
 
 - [ ] image galleries/lightboxes (Learn > Privacy > TX types)
-
-Moved pages:
-
-- learn:transaction-types -> learn/privacy/transaction-types
-- learn:staking: -> learn/staking/intro
-- learn:wallets: -> learn/wallets/overview
-- learn:hardware-wallets -> learn/wallets/hardware
-- learn:market: -> learn/marketplace/overview
-
-- tutorial:particl-desktop: -> tutorial/wallets/particl-desktop
-  + same for core, copay, cli
-- tutorial:ledger/trezor -> tutorial/wallets/ledger (trezor)
-- tutorial:market: -> tutorial/market/intro
-- tutorial:backup-restore-wallet -> tutorial/security/backup-restore-wallet
-- tutorial:staking: -> tutorial/staking/intro
-- tutorial:multisig -> tutorial/security/multisig
-- tutorial:good-password -> tutorial/security/good-password
-- tutorial:privacy-tips -> tutorial/privacy/tips
-- tutorial:coin-control -> tutorial/privacy/coin-control
-- tutorial:staking: -> tutorial/staking/overview
-- tutorial:market: -> tutorial/market/intro
-- tutorial:market:* -> tutorial/marketplace/*intro*
-- tutorial:passphrase-security -> tutorial/security/recovery-phrase
-- tutorial:verify-downloads -> tutorial/security/verify-downloads
-- tutorial:good-passwprd -> tutorial/security/good-passwords
-
-- support: -> support/overview
-
-- dev: particl-desktop/particl-core:/trezor/ledger -> dev/wallets/*
-- dev: rpc-api/insight-api/coingecko-api/coinmarketcap-api/chainz-api -> dev/api/ rpc/insight/coingecko/coinmarketcap/chainz
 
 ## Credits
 

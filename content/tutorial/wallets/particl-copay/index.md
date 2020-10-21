@@ -5,6 +5,8 @@ slug:
 weight: 5
 tags:
   - Particl Copay
+aliases:
+  - /tutorial/particl-copay/start
 ---
 
 ## About Particl Copay

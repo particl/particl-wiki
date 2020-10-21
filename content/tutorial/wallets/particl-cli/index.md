@@ -5,6 +5,8 @@ slug:
 weight: 6
 tags:
   - Particl CLI
+aliases:
+  - /tutorial/particl-cli/start
 ---
 
 {{< toc >}}

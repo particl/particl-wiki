@@ -6,6 +6,8 @@ weight: 2
 tags:
   - dev
   - Particl Core
+aliases:
+  - /dev/particl-core
 ---
 
 [Particl Core](/tutorial/wallets/particl-core) is a Qt-based wallet with advanced features focused on stability.

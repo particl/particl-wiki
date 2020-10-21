@@ -5,6 +5,8 @@ slug:
 weight: 1
 tags:
   - important
+aliases:
+  - /learn/wallets/start
 ---
 
 You can use one or all of them, it's up to you.

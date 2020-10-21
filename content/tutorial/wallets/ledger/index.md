@@ -5,6 +5,8 @@ slug:
 weight: 3
 tags:
   - Ledger wallet
+aliases:
+  - /tutorial/ledger
 ---
 
 {{< image class="side-thumb" src="ledger-wallet.jpg" alt="Ledger Nano S" >}}

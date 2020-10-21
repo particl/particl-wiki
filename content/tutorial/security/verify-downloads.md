@@ -5,6 +5,8 @@ slug:
 weight: 4
 tags:
   - security
+aliases:
+  - /tutorial/verify-downloads
 ---
 
 ## About checksums

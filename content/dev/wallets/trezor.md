@@ -6,6 +6,8 @@ weight: 4
 tags:
   - dev
   - Trezor wallet
+aliases:
+  - /dev/trezor
 ---
 
 {{< toc >}}

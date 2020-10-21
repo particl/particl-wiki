@@ -8,6 +8,8 @@ tags:
   - CT
   - RingCT
   - important
+aliases:
+  - /learn/transaction-types
 ---
 
 As the highest privacy state requires the most transaction fee, it may not always be the best type of transaction depending on the situation, especially when privacy is not predominantly required by the user.

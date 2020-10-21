@@ -5,6 +5,8 @@ slug:
 weight: 2
 tags:
   - API
+aliases:
+  - /dev/insight-api
 ---
 
 {{< hint info >}}
