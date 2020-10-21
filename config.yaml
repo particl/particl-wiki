@@ -1,5 +1,5 @@
 ---
-baseURL: https://beta.particl.wiki/ # <---------- update before release!
+baseURL: https://particl.wiki/
 title: Particl Project Wiki
 #theme: hugo-geekdoc
 pygmentsUseClasses: true
