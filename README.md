@@ -93,6 +93,7 @@ Menus are defined in `data/menu/main.yml` and `../more.yml`
 ### TODO
 
 - [ ] image galleries/lightboxes (Learn > Privacy > TX types)
+- [ ] Matomo analytics?
 
 ## Credits
 
