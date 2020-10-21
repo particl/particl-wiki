@@ -1223,8 +1223,42 @@ img {
 .gdoc-button.--full-width {
   width: 100%
 }
-aside.related small {
-  color: var(--text-muted)
+.related-articles .gdoc-expand__head {
+  padding: 1rem
+}
+.related-articles .gdoc-expand__head .title {
+  font-size: 1.1rem
+}
+.related-articles .gdoc-expand__head .ico {
+  color: var(--text-muted);
+  font-weight: 300
+}
+.related-articles .gdoc-expand__content {
+  padding: 0
+}
+.related-articles .gdoc-expand__content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0
+}
+.related-articles .gdoc-expand__content a {
+  display: block;
+  padding: .8rem 1rem;
+  border-top: 1px solid #e9ecef
+}
+.related-articles .gdoc-expand__content a:focus,
+.related-articles .gdoc-expand__content a:hover {
+  text-decoration: none;
+  background: #fafafa
+}
+.related-articles .title {
+  font-weight: 500
+}
+.related-articles small {
+  color: var(--text-muted);
+  line-height: 1.4;
+  display: block;
+  margin-top: .2rem
 }
 .meta .tags {
   list-style: none;
@@ -1253,8 +1287,12 @@ html {
 .gdoc-markdown p {
   color: var(--text-muted)
 }
-.gdoc-markdown p b,
-.gdoc-markdown p strong {
+.gdoc-markdown ol,
+.gdoc-markdown ul {
+  color: var(--text-muted)
+}
+.gdoc-markdown b,
+.gdoc-markdown strong {
   color: var(--text)
 }
 .gdoc-markdown kbd {
@@ -1304,6 +1342,18 @@ html {
 }
 .lead {
   font-size: 1.2em
+}
+.gdoc-toc span.tag {
+  text-transform: uppercase;
+  color: var(--text-muted);
+  font-size: .7em;
+  line-height: 1;
+  border: 1px solid #979797;
+  padding: 1px .3rem;
+  border-radius: 4px;
+  margin-left: .4rem;
+  position: relative;
+  top: -1px
 }
 .gdoc-toc small {
   display: block;

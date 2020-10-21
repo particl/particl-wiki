@@ -3,20 +3,28 @@ Use Hugo's native related content feature to pull in content that may have simil
 https://gohugo.io/content-management/related/
 */}}
 
-{{ $related := .Site.RegularPages.Related . | first 15 }}
+{{ $related := .Site.RegularPages.Related . | first 20 }}
 
 {{ with $related }}
-<aside class="related gdoc-markdown">
 
-  <h2>Related articles</h2>
-  <ul>
-    {{ range . }}
-    <li>
-      <a href="{{ .RelPermalink }}">{{- .Title -}}</a>
-      <small>{{- .Params.Subtitle -}}</small>
-    </li>
-    {{ end }}
-  </ul>
-
+<aside class="gdoc-expand related-articles">
+  <label class="gdoc-expand__head flex justify-between" for="related-articles">
+    <span class="title">{{ default "Related articles" }}</span>
+    <span class="ico">{{ default "↕" }}</span>
+  </label>
+  <input id="related-articles" type="checkbox" class="gdoc-expand__control hidden" />
+  <div class="gdoc-markdown--nested gdoc-expand__content">
+    <ul>
+      {{ range . }}
+      <li>
+        <a href="{{ .RelPermalink }}">
+          <span class="title">{{- .Title -}}</span>
+          {{ with .Params.Subtitle }}<small>{{ . }}</small>{{ end }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
 </aside>
+
 {{ end }}

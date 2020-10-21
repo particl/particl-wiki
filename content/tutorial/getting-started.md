@@ -33,7 +33,7 @@ In short: it's based on always up-to-date Bitcoin code, meaning it's constantly 
 
 Some must-read articles about PART currency include:
 
-- **[Transaction types](/learn/transaction-types/)** – quick intro to Particl's different privacy coins (Public vs Private transactions)
+- **[Transaction types](/learn/privacy/transaction-types/)** – quick intro to Particl's different privacy coins (Public vs Private transactions)
 - **[Staking](/learn/staking/intro/)** – securing Particl network and earning interest on your owned coins in the process (easy, hassle-free and without a need for expensive "mining" equipment)
 
 
@@ -46,7 +46,7 @@ Visit our official website for up-to-date [overview of available Exchanges](http
 
 ## Particl Open Marketplace
 
-Get to know Particl's flagship Dapp, [The Open Marketplace](/learn/market/intro/)!
+Get to know Particl's flagship Dapp, [The Open Marketplace](/learn/marketplace/overview/)!
 
 
 ## Join our awesome community!

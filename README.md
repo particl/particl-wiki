@@ -90,12 +90,7 @@ Menus are defined in `data/menu/main.yml` and `../more.yml`
 
 ### TODO
 
-- [x] <label> shortcode
 - [ ] image galleries/lightboxes (Learn > Privacy > TX types)
-- [ ] fix taxonomy pages (tag lists)
-- [x] link to missing/unfinished pages in footer (http://localhost:1313/tags/TODO/)
-- [ ] highlight ★ important pages (w/ "important" tag) in lists - bold? star icon?
-  - batch-replace `{{fa>star}}` with `★`
 
 Moved pages:
 

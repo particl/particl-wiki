@@ -35,9 +35,44 @@
   }
 }
 
-aside.related {
+// Related articles
+.related-articles {
+  .gdoc-expand__head {
+    padding: 1rem;
+    .title {
+      font-size: 1.1rem;
+    }
+    .ico {
+      color: var(--text-muted);
+      font-weight: 300;
+    }
+  }
+  .gdoc-expand__content {
+    padding: 0;
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    a {
+      display: block;
+      padding: 0.8rem 1rem;
+      border-top: 1px solid #e9ecef;
+      &:hover,
+      &:focus {
+        text-decoration: none;
+        background: #fafafa;
+      }
+    }
+  }
+  .title {
+    font-weight: 500;
+  }
   small {
     color: var(--text-muted);
+    line-height: 1.4;
+    display: block;
+    margin-top: 0.2rem;
   }
 }
 
@@ -70,9 +105,13 @@ html {
   }
   p {
     color: var(--text-muted);
-    b, strong {
-      color: var(--text);
-    }
+  }
+  ul,
+  ol {
+    color: var(--text-muted);
+  }
+  b, strong {
+    color: var(--text);
   }
   kbd {
     border: 1px solid #ccc;
