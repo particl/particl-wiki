@@ -1,35 +1,67 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.Language.Lang }}">
+{{ define "main" }}
 
-<head>
-    {{ partial "head" . }}
-</head>
+    {{ partial "page-header" . }}
 
-<body>
-    {{ partial "svg-icon-symbols" . }}
+    <article class="gdoc-markdown">
+        <h1>Error 404 &ndash; Page not found</h1>
+        <p class="lead">
+            Sorry, but the page you're looking for doesn't exist
+        </p>
+        <h2>
+            What now?
+        </h2>
+        <p>
+            Here's couple suggestions:
+        </p>
+        <ul>
+            <li>Use the navigation to browse for the page you're looking for</li>
+            <li>Search for keywords or <a href="/tags">browse by tags</a></li>
+            <li><a href="/">Go back to homepage</a></li>
+        </ul>
+        <h3>Report missing link</h3>
+        <p>
+            You can report this link being broken by <a href="{{ .Site.Params.geekdocRepo }}/issues/new">submitting a new Issue</a> on Wiki's GitHub repository. Please include details like which page is missing and what link brought you here &ndash; thank you!
+        </p>
+    </article>
 
-    <div class="wrapper">
-        {{ partial "site-header" (dict "Root" . "MenuEnabled" false) }}
 
-        <main class="gdoc-error flex-even">
-            <div class="flex align-center justify-center">
-                <div class="gdoc-error__icon">
-                    <svg class="icon telescope"><use xlink:href="#telescope"></use></svg>
-                </div>
-                <div class="gdoc-error__message">
-                    <div class="gdoc-error__line gdoc-error__title">Lost?</div>
-                    <div class="gdoc-error__line gdoc-error__code">Error 404</div>
-                    <div class="gdoc-error__line gdoc-error__help">
-                        Seems like what you are looking for can't be found. Don't worry we can
-                        bring you back to the <a class="gdoc-error__link" href="{{ .Site.BaseURL }}">homepage</a>.
-                    </div>
-                </div>
-            </div>
-        </main>
-
-        {{ partial "site-footer" . }}
-
+    <div class="gdoc-columns flex flex-wrap">
+        <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
+            <span class="gdoc-button --huge learn --full-width">
+                <a href="/learn/" class="gdoc-button__link">
+                    <svg class="icon learn"><use xlink:href="#learn"></use></svg>
+                    <span class="title">Learn</span>
+                    <p class="desc">Discover Particl and its features</p>
+                </a>
+            </span>
+        </div>
+        <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
+            <span class="gdoc-button --huge tutorial --full-width">
+                <a href="/tutorial/" class="gdoc-button__link">
+                    <svg class="icon tutorials"><use xlink:href="#tutorials"></use></svg>
+                    <span class="title">Tutorials &amp; Courses</span>
+                    <p class="desc">Tutorials and step-by-step walkthroughs</p>
+                </a>
+            </span>
+        </div>
+        <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
+            <span class="gdoc-button --huge support --full-width">
+                <a href="/support/" class="gdoc-button__link">
+                    <svg class="icon support"><use xlink:href="#support"></use></svg>
+                    <span class="title">Help &amp; Support</span>
+                    <p class="desc">FAQ &amp; Solving common problems</p>
+                </a>
+            </span>
+        </div>
+        <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
+            <span class="gdoc-button --huge dev --full-width">
+                <a href="/dev/" class="gdoc-button__link">
+                    <svg class="icon dev"><use xlink:href="#dev"></use></svg>
+                    <span class="title">Dev docs</span>
+                    <p class="desc">Technical documentation for developers</p>
+                </a>
+            </span>
+        </div>
     </div>
-</body>
 
-</html>
+{{ end }}
