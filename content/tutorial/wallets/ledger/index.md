@@ -7,6 +7,7 @@ tags:
   - Ledger wallet
 aliases:
   - /tutorial/ledger
+  - /ledger
 ---
 
 {{< image class="side-thumb" src="ledger-wallet.jpg" alt="Ledger Nano S" >}}
@@ -52,7 +53,8 @@ Note that if you're forced to uninstall Particl app from your Ledger (due to lac
 ### Particl Core configuration
 
 {{< hint alert >}}
-**If you already have a Particl wallet on this computer**, make sure to [back up the wallet.dat file](/tutorial/security/backup-restore-wallet/) by renaming or moving it elsewhere!
+**If you already have a Particl wallet on this computer**,\
+make sure to [back up the wallet.dat file](/tutorial/security/backup-restore-wallet/) by renaming or moving it elsewhere!
 {{< /hint >}}
 
 {{< columns >}}
