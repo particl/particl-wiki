@@ -29,9 +29,9 @@ tags:
 
 |   |   |
 |---|---|
-| **Block reward** | [~0.97 PART](https://explorer.particl.io/) |
+| **Block reward** | [~0.66 PART](https://explorer.particl.io/) |
 | **Coin maturity** | 225 confirmations (~8 hours) |
-| **Yearly interest rate** | Min. 3% (based on network weight), decreasing by 1% every year until 2% |
+| **Yearly interest rate** | Min. 2% (based on network weight)|
 | **Particl Cold Staking** | Quantum-resistant [cold staking](/learn/staking/#cold-staking) with support for [hardware wallets](/learn/hardware-wallets/) |
 
 ## Features
