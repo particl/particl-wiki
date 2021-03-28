@@ -72,7 +72,7 @@ Check `particld` status and verify everything is running correctly (you might ne
 
 You should see a summary similar to this:
 
-{{< image src="partyman-status.png" alt="Output of './partyman status' command" >}}
+{{< image src="https://particl.news/glink/size/w1600/2020/10/image.png" alt="Output of './partyman status' command" >}}
 
 Great! Your node is now managed by Partyman and you have the latest `particld` daemon running!
 
