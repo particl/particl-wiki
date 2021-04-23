@@ -30,7 +30,7 @@ You can also browse [list of used tags](/tags) instead if that's what you prefer
 
 <--->
 
-{{< huge-button relref="/dev/" icon="dev" title="Dev docs" desc="Technical documentation for developers" class="dev --full-width" >}}
+{{< huge-button relref="/dev/" icon="dev" title="Dev docs" desc="Technical docs for developers" class="dev --full-width" >}}
 
 {{< /columns >}}
 
