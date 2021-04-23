@@ -22,7 +22,7 @@ The Open Marketplace focuses on four core values: **privacy, security, scalabili
 
 {{< hint info >}}
 **To access Particl Open Marketplace**\
-follow our [Getting started with Open Marketplace](/tutorial/market/intro) guide!
+follow our [Getting started with Open Marketplace](/tutorial/marketplace/intro) guide!
 {{< /hint >}}
 
 
