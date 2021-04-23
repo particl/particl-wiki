@@ -1203,8 +1203,21 @@ img {
   --bg: #fff;
   --bg-muted: #e8e8e8
 }
+.container {
+  max-width: 75rem
+}
 .gdoc-brand {
   font-size: 1.45rem
+}
+.gdoc-nav__list .icon {
+  margin-right: .45rem;
+  top: .05em
+}
+.gdoc-page__header .icon.path {
+  margin-right: .5rem
+}
+.gdoc-page__header .icon.code {
+  margin-right: .2rem
 }
 .related-articles .gdoc-expand__head {
   padding: 1rem
@@ -1250,6 +1263,9 @@ img {
 }
 .meta .tags li {
   display: inline-block
+}
+.meta .tags .gdoc-button {
+  margin-right: .6rem
 }
 html {
   letter-spacing: .2px
