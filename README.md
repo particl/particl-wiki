@@ -6,7 +6,7 @@ Hugo-based knowledge base for @particl Project
 ## Development
 
 1. Clone repo
-2. Install [Hugo](https://gohugo.io/getting-started/installing/), [Yarn](https://yarnpkg.com/getting-started/install)
+2. Install [Hugo](https://gohugo.io/getting-started/installing/), [Yarn](https://yarnpkg.com/getting-started/install) and do `yarn install` to fetch dependenciesnvm 
 3. To run Hugo dev server: `yarn hugo`
 4. To compile assets: `yarn dev` (continuous) or just `gulp` (one-time)
 5. To check production version locally: `yarn build` and then check the result in `/public` folder
