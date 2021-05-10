@@ -130,21 +130,25 @@ To see the current results of a particular proposal, you can tally the votes. Th
 
 ### Partyman
 
-1. Access your [Partyman](/learn/staking/partyman/) staking node
-2. Enter your home folder: `cd ~/`
-3. Find what proposal you want to tally the votes of by entering the following command:
+1. Access your [Partyman](/learn/staking/partyman/) staking node and enter Partyman's folder:
 
 ```
-partyman/partyman proposal list
+cd ~/partyman/
 ```
 
-4. Tally the proposal’s votes by typing the following command:
+2. Find what proposal you want to tally the votes of by entering the following command:
 
 ```
-partyman/partyman proposal tally
+./partyman proposal list
 ```
 
-5. Enter the ID of the proposal you want to tally the votes and press `Enter`.
+3. Tally the proposal’s votes by typing the following command:
+
+```
+./partyman proposal tally
+```
+
+4. Enter the ID of the proposal you want to tally the votes and press `Enter`.
 
 {{< /tab >}}
 {{< tab "Particl Desktop" >}}
