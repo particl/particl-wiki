@@ -29,23 +29,28 @@ Once that is done, follow the instructions below, depending on what client you u
 
 ### Partyman (Cold Staking Application)
 
-1. Access your [Partyman](/learn/staking/partyman/) staking node and make sure it's on the latest version by typing the following command from inside the Partyman folder:
+1. Access your [Partyman](/learn/staking/partyman/) staking node and enter Partyman's folder:
+
+```
+cd ~/partyman/
+```
+
+2. Make sure Partyman is on the latest version by typing the following command:
 
 ```
 git pull
 ```
 
-2. Enter your home folder: `cd ~/`
-3. Find what proposal you want to vote for by entering the following command:
+3. Still in Partyman's folder, find what proposal you want to vote for by entering the following command:
 
 ```
-partyman/partyman proposal list
+./partyman proposal list
 ```
 
 4. Vote on the proposal by typing the following command:
 
 ```
-partyman/partyman proposal vote
+./partyman proposal vote
 ```
 
 5. Confirm that you want to vote for a proposal. This will clear all previous voting preferences if you’re already voting on a proposal.
