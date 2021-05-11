@@ -101,23 +101,23 @@ In the end, a more accurate metric would be to calculate each transaction size. 
 
 ## Where can the debug logs be found?
 
-### Core:
+### Particl Core
 
 | OS              | Network   | Path
 |-----------------|-----------|----------------------------------------------
-| Linux:          | Mainnet   | ~/.particl/debug.log
-| Linux:          | Testnet   | ~/.particl/testnet/debug.log
-| Windows:        | Mainnet   | C:\Users\{YourUserName}\Appdata\Roaming\Particl\debug.log
-| Windows:        | Testnet   | C:\Users\{YourUserName}\Appdata\Roaming\Particl\testnet\debug.log
-| OSX:            | Mainnet   | ~/Library/Application Support/Particl/debug.log
-| OSX:            | Testnet   | ~/Library/Application Support/Particl/testnet/debug.log
+| Linux           | mainnet   | `~/.particl/debug.log`
+| Linux           | _testnet_ | `~/.particl/testnet/debug.log`
+| Windows         | mainnet   | `C:\Users\{YourUserName}\Appdata\Roaming\Particl\debug.log`
+| Windows         | _testnet_ | `C:\Users\{YourUserName}\Appdata\Roaming\Particl\testnet\debug.log`
+| OSX             | mainnet   | `~/Library/Application Support/Particl/debug.log`
+| OSX             | _testnet_ | `~/Library/Application Support/Particl/testnet/debug.log`
 
 
-### Particl Desktop:
+### Particl Desktop
 
 | OS              | Network   | Path
 |-----------------|-----------|----------------------------------------------
-| Linux:          | Mainnet   | ~/.config/particl-desktop/application.log
-| Linux:          | Testnet   | ~/.config/particl-desktop-testnet/application.log
-| Windows:        | Mainnet   | C:\Users\{YourUserName}\AppData\Roaming\Particl Desktop\application.log
+| Linux           | mainnet   | `~/.config/particl-desktop/application.log`
+| Linux           | _testnet_ | `~/.config/particl-desktop-testnet/application.log`
+| Windows         | mainnet   | `C:\Users\{YourUserName}\AppData\Roaming\Particl Desktop\application.log`
 
