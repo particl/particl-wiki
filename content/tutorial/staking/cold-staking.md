@@ -189,8 +189,8 @@ The zap transaction is now being sent and your coins are successfully on Staking
 
 - Enable [Coin Control](/tutorial/privacy/coin-control/)
 - Generate a spending key
-  - On the **Receive** tab set the drop down next to the `Create new receiving address` button to "Standard 256bit" and click the button and copy the address.
-- On the **Send** tab click the `Add Coldstake Recipient` button, this will change the form.
+  - On the **Receive** tab set the drop down next to the `Create new receiving address` button to "Standard 256bit", click the button and copy the address.
+- On the **Send** tab click the `Add Coldstake Recipient` button.  The form should change.
   - Insert the 256bit address you've created in the "Spend Address" edit box.
   - Insert the pool address or your staking node address in the "Stake Address" edit box.
 - Select the output/s you want to send from coincontrol.
