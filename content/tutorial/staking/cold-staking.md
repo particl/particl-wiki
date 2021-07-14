@@ -182,3 +182,26 @@ The zap transaction is now being sent and your coins are successfully on Staking
 {{< /tab >}}
 
 {{< /tabs >}}
+
+## Sending Individual Outputs
+
+### Particl-Qt
+
+- Enable [Coin Control](/tutorial/privacy/coin-control/)
+- Generate a spending key
+  - On the **Receive** tab set the drop down next to the `Create new receiving address` button to "Standard 256bit", click the button and copy the address.
+- On the **Send** tab click the `Add Coldstake Recipient` button.  The form should change.
+  - Insert the 256bit address you've created in the "Spend Address" edit box.
+  - Insert the pool address or your staking node address in the "Stake Address" edit box.
+- Select the output/s you want to send from coincontrol.
+- Input the amount you want to send (send the entire output by clicking `Use available balance` and selecting `Subtract fee from amount`.
+- Click `Send`
+
+### particld
+
+- Run `listunspent`, copy the "txid", "vout" and "amount" of the output you want to send.
+- Generate a spending key
+  - Run `getnewaddress "label" false false true`
+- Run `buildscript "{\"recipe\":\"ifcoinstake\",\"addrstake\":\"STAKE_ADDRESS\",\"addrspend\":\"256BIT_ADDRESS\"}"`
+  - Copy the "hex" field
+- Run `sendtypeto part part "[{\"address\":\"script\",\"amount\":AMOUNT,\"subfee\":true,\"script\":\"HEX_FROM_BUILDSCRIPT\"}]" "" "" 5 1 false "{\"inputs\":[{\"tx\":\"TXID\",\"n\":VOUT}]}"`
