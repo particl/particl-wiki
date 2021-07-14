@@ -121,3 +121,13 @@ In the end, a more accurate metric would be to calculate each transaction size. 
 | Linux           | _testnet_ | `~/.config/particl-desktop-testnet/application.log`
 | Windows         | mainnet   | `C:\Users\{YourUserName}\AppData\Roaming\Particl Desktop\application.log`
 
+
+### Particl Market
+
+| OS              | Network   | Path
+|-----------------|-----------|----------------------------------------------
+| Linux           | mainnet   | `~/.particl-market/market.log`
+| Linux           | _testnet_ | `~/.particl-market/testnet/03/market.log`
+| OSX             | mainnet   | `~/Library/Application Support/particl-market/market.log`
+| Windows         | mainnet   | `%userprofile%\AppData\Roaming\particl-market\market.log`
+
