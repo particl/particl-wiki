@@ -65,27 +65,10 @@ That is all! Every time you stake a block until the voting period ends, you’ll
 ### Particl Desktop
 
 1. Open your [Particl Desktop](/tutorial/wallets/particl-desktop/) client
-2. Click on the debug console icon at the top right corner of the screen
-3. In the console window, type the following command:
-
-```
-setvote proposal option height_start height_end
-```
-
-- `proposal` should be the ID of the proposal you want to vote for
-- `option` should be the value of your voting option (i.e. 1 = “Voting for the proposal”)
-- `height_start` is the block number when the voting period starts
-- `height_end` is when it ends
-
-In the end, the command should look similar to this, with different values depending on the proposal and your voting preferences:
-
-```
-setvote 1 1 300000 305040
-```
-
-In this example, you would be voting for Proposal ID number 1, with the voting option 1, and do so from block 300,000 to 305,040. 
-
-That is all! Every time you stake a block until the voting period ends, you’ll cast a vote. The system will tally the votes at the end of the voting period to determine the end result.
+2. Click on the **Governance** app, either from the start screen or from the sidebar menu on the left side of the client.
+3. Find the proposal you want to vote for within the _"Active and Upcoming Proposals"_ section and click on its tile to expand its details.
+4. Click on the `Vote on Proposal` button and enter your voting preference in the dropdown menu.
+5. Cast your vote by clicking on the `Cast Vote` button.
 
 {{< /tab >}}
 {{< tab "Particl Core" >}}
