@@ -85,7 +85,7 @@ Alternately, you can write:
 ```
 cd /Users/<your username>/Downloads
 
-shasum -a 256 <file name of downnloaded Particl Release>
+shasum -a 256 <file name of downloaded Particl Release>
 ```
 
 {{< /tabs >}}
