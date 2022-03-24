@@ -26,6 +26,7 @@ Main, desktop wallets for Windows, macOS and Linux
 
 - **[Particl Desktop](/tutorial/wallets/particl-desktop/)** – Main, feature-rich wallet for Particl with all bells and whistles
 - **[Particl Core](/tutorial/wallets/particl-core/)** – Qt-based wallet focused on stability and advanced features
+- **[Particl Electrum](/tutorial/wallets/particl-electrum/)** – Light wallet focused on ease-of-use and accessibility
 - **[Particl Copay](/tutorial/wallets/particl-copay/)** – Mobile & desktop wallet with multi-sig for increased security
 
 <--->
@@ -47,6 +48,8 @@ Compatible [hardware wallets](/learn/wallets/hardware/) for usage with [Particl 
 Mobile wallets for Android and iOS
 
 - **[Particl Copay](/tutorial/wallets/particl-copay/)** – Mobile & desktop wallet with multi-sig for increased security
+- **[Particl Electrum](/tutorial/wallets/particl-electrum/)** – Android-only mobile wallet focused on ease-of-use and accessibility
+
 
 <--->
 
