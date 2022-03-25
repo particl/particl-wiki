@@ -17,6 +17,8 @@ For Particl Core, the latest release can be found here: https://github.com/parti
 
 For Particl Desktop, the latest release can be found here: https://github.com/particl/particl-desktop/releases/latest
 
+For Particl Electrum, the latest release can be found here: https://github.com/particl/particl-electrum/releases/latest
+
 
 **To ensure the highest level of security, the Particl Project team provides `sha256sums` for all of these releases.**
 
