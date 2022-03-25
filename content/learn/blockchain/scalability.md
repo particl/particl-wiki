@@ -65,5 +65,5 @@ Cross-chain atomic swaps can occur off-chain instantly with heterogeneous blockc
 ## Data Storage Network (DSN)
 
 {{< hint info >}}
-Read more about Open Marketplace-related scalability with [Data Storage Network (DSN)](/learn/market/data-storage-network/)
+Read more about Open Marketplace-related scalability with [Data Storage Network (DSN)](/learn/marketplace/data-storage-network/)
 {{< /hint >}}
