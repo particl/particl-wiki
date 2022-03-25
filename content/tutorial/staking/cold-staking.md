@@ -104,6 +104,26 @@ Particl has a nice selection of various wallets for different needs. Comparing a
 3. Paste the **staking public key**/**pool address** (that you saved before) into the **Cold staking change address** field and click `Apply`
 {{< /tab >}}
 
+{{< tab "Particl Electrum" >}}
+### Particl Electrum
+
+1. Open Particl Electrum
+2. Enter the cold staking change address (a pool's public address, for example) you want to stake to in the Tools/Preferences/ColdStaking menu
+3. Enable Coin Control by opening the View tab and clicking on Show Coins
+4. Open the Coins page by clicking on the Coins tab that should now show up on your client
+5. Select all the outputs you want to cold stake, right-click on them, and then click on Spend
+6. Open the Receive page and create a new normal address
+7. Copy the address that was just created in your clipboard; we'll use it to enable cold staking
+8. In the Send page, paste the address you've just copied and put a dust figure like (e.g., 0.1) in the Amount text field
+9. Before sending the transaction, make sure that Electrum tells you that "coin control is active" with the correct number of outputs at the bottom of your screen
+10. Click on "Pay..." to initiate the payment. A confirmation window should now appear. Ensure that the information is correct and then click on Send
+11. You can confirm that cold staking has been successfully activated by going once again in the Coins tab. You should see a new output represented by a 256bit address that should be equal to the sum of the value of the outputs you've selected for staking, minus the change and network fees
+12. You can further confirm that it has been detected by the staking pool by copying this new 256 bit address in your keyboard and going to the following link: `https://IP_ADDRESS_OR_URL_OF_THE_POOL/api/json/address/YOUR_256_BIT_ADDRESS_HERE`. Here's an example of how it may look like that with the proper information added: `https://coldstakingpool.com/api/json/address/2voNrBmH275emiEX95na1eFBJemWg9fkDPJLIJxxWdR9c6Qi7x6`. If your outputs have been detected by the pool, your browser should display the correct number of satoshis currently cold staking in the pool
+13. Once that output matures (255 blocks), any stakes made by the pool will accumulate in that address in proportion to your balance relative to the total amount of coins staking in the pool
+14. Note that, if you move that output (256 bit address), the spending address will change and will start accumulating from zero again
+15. If you want to increase your privacy while staking, you can indicate to Particl Electrum a list of change addresses in the Tools/Preferences/ColdStaking menu. Now, any change will automatically go to a randomly selected spend address from your list
+{{< /tab >}}
+
 {{< tab "Particl Copay" >}}
 ### Particl Copay
 
