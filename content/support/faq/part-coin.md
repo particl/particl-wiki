@@ -48,14 +48,17 @@ The default fee for public transactions is 0.002 PART per kb but you can adjust 
 
 ## What is PART's inflation rate?
 
-Current annual inflation of PART coins is 2 %. You can see historical rates below:
+Current annual inflation of PART coins is 8 %. You can see historical rates below:
 
 | Period | Staking rewards / inflation rate |
 |--------|----------------------------------|
 | July 2017 – July 2018               | 5 % |
 | July 2018 – July 2019               | 4 % |
 | July 2019 – July 2020               | 3 % |
-| July 2020 onwards                   | 2 % |
+| July 2020 - 12 July 2021            | 2 % |
+| 12 July 2021 - 12 July 2023         | 8 % |
+| 12 July 2023 - 11 July 2025         | 7 % |
+| 11 July 2025 Onwards                | 6 % |
 
 ## Why has PART different privacy states?
 
@@ -102,6 +105,8 @@ In the end, a more accurate metric would be to calculate each transaction size. 
 ## Where can the debug logs be found?
 
 ### Particl Core
+
+particl.conf can be found in the same directory.
 
 | OS              | Network   | Path
 |-----------------|-----------|----------------------------------------------
