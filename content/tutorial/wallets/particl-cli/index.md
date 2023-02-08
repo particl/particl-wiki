@@ -69,7 +69,7 @@ Beware as every command starts with `./particl-cli <command>` (and NOT `./partic
 
 {{< hint info >}}
 If you see `Error: couldn't connect to server: unknown (code -1)`, you probably haven't started `./particld`.\
-You cannot run `./particld` in parallel with [Particl Core](tutorial:particl-core:) wallet.
+You cannot run `./particld` in parallel with [Particl Core](https://particl.wiki/tutorial/wallets/particl-core/) wallet.
 {{< /hint >}}
 
 ### Informative
