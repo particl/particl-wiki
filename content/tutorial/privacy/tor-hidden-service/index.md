@@ -1,6 +1,6 @@
 ---
-title: Particl as Tor Hidden Service
-subtitle: Tor hidden service conceals your IP address and thus your privacy 
+title: Particl as Tor Onion Service
+subtitle: Tor onion service conceals your IP address and thus your privacy 
 slug: tor-hidden-service
 geekdocHidden: true
 weight: 3
@@ -36,7 +36,7 @@ If not, install Tor with these commands:
     $ sudo apt-get install tor
 
 
-## Define HS in Tor config
+## Define Onion Service in Tor config
 
     $ sudo nano /etc/tor/torrc
 
@@ -50,7 +50,7 @@ Save the file with `CTRL-X`, type `y` to overwrite and confim by `Enter` – the
     $ sudo service tor restart
 
 
-## Find your IP for HS
+## Find your IP for Onion Service
 
 At a command prompt enter:
 
@@ -96,7 +96,7 @@ addnode=partusq5qad6jd2c.onion
 addnode=x6fxdwpq2krxzmr3.onion
 addnode=amu2ck7lyw26fiqs.onion
 addnode=kfyopkn3shigcneh.onion
-onlynet=tor
+onlynet=onion
 listen=1
 bind=127.0.0.1:51738
 maxconnections=30
