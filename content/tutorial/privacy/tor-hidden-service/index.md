@@ -36,7 +36,7 @@ If not, install Tor with these commands:
     $ sudo apt-get install tor
 
 
-## Define HS in Tor config
+## Define Onion Service in Tor config
 
     $ sudo nano /etc/tor/torrc
 
@@ -50,7 +50,7 @@ Save the file with `CTRL-X`, type `y` to overwrite and confim by `Enter` – the
     $ sudo service tor restart
 
 
-## Find your IP for HS
+## Find your IP for Onion Service
 
 At a command prompt enter:
 
