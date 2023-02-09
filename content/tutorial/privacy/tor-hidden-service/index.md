@@ -1,6 +1,6 @@
 ---
-title: Particl as Tor Hidden Service
-subtitle: Tor hidden service conceals your IP address and thus your privacy 
+title: Particl as Tor Onion Service
+subtitle: Tor onion service conceals your IP address and thus your privacy 
 slug: tor-hidden-service
 geekdocHidden: true
 weight: 3
