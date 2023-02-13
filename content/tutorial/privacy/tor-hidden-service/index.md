@@ -25,6 +25,10 @@ If you don't have a Particl wallet yet, [download it](learn:wallets:) (we highly
 
 ## Install Tor
 
+{{< hint [warning] >}} 
+Note that Torproject community discourage use of Ubuntu default repository for `tor`. See their recommendations at <https://community.torproject.org/onion-services/setup/install/>.
+{{< /hint >}}
+
 At a command prompt just enter `tor`.
 
     $ tor
